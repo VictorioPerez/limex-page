@@ -1,0 +1,113 @@
+/* color naranja E35205 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.section-carousel {
+  margin-top: 75px;
+}
+.carousel-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-services {
+  margin-top: 30px;
+}
+h2 {
+  letter-spacing: 1px;
+}
+h2::first-letter {
+  color: #e35205;
+}
+
+li > a {
+  position: relative;
+  text-decoration: none;
+  color: #000; /* Color del texto */
+}
+
+li > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Grosor del subrayado */
+  bottom: -1px;
+  left: 0;
+  background-color: #e35205; /* Color del subrayado */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out; /* Duración y tipo de transición */
+}
+
+li > a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* industry */
+.section-industry {
+  margin: 20px;
+}
+
+.card {
+  margin-bottom: 20px; /* Agrega espacio entre las tarjetas */
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%; /* Ancho al 100% del contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+.card span {
+  position: absolute;
+  font-weight: 650;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 184%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2em;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.message {
+  color: white;
+  font-size: 1.2em;
+  padding: 30px;
+}
+.card:hover span {
+  display: none;
+}
+
+
+
+@media (max-width: 576px) {
+    .message {
+        font-size: 0.8em; 
+    }
+}
