@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   font-family: sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 .navbar {
@@ -11,21 +11,26 @@
 .section-carousel {
   margin-top: 75px;
 }
-.carousel-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .section-services {
   margin-top: 30px;
 }
 h2 {
-  letter-spacing: 1px;
+  font-family: sans-serif;
+  letter-spacing: 0.7px;
+  font-size: medium;
 }
 h2::first-letter {
   color: #e35205;
 }
 
+.navbarContainer{
+  padding-left: 300px;
+}
+.navbarContainer>ul>li>a{
+  font-family: sans-serif;
+  font-weight: bold;
+}
 li > a {
   position: relative;
   text-decoration: none;
@@ -67,7 +72,7 @@ li > a:hover::before {
 }
 .card span {
   position: absolute;
-  font-weight: 650;
+  font-weight: 550;
   top: 0;
   left: 0;
   width: 100%;
@@ -75,10 +80,11 @@ li > a:hover::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 1.2em;
+  color: #fff; /* Cambiar el color del texto a blanco */
+  font-size: 1em;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.5); /* Agregar un fondo oscuro */
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -97,17 +103,29 @@ li > a:hover::before {
 }
 .message {
   color: white;
-  font-size: 1.2em;
+  font-size: 0.8em;
   padding: 30px;
 }
 .card:hover span {
   display: none;
 }
 
-
-
 @media (max-width: 576px) {
     .message {
         font-size: 0.8em; 
     }
+
+    .navbarContainer{
+      padding-left: 0px;
+    }
+}
+
+/* Productos */
+.logo {
+  width: 250px;
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: auto;
+  
 }

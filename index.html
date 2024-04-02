@@ -1,258 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="images/icon-page.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="images/icon-page.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="" />
-    <title>Limex</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bs-white fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="images/logo-limex-removebg-preview.png"
-              alt="logo limex"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#section-about">Acerca de</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#section-industry">Industrias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Productos</a>
-              </li>
-            </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="images/icon-page.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/icon-page.png" type="image/x-icon" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="" />
+  <title>Limex</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bs-white fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo-limex-removebg-preview.png" alt="logo limex" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbarContainer" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#section-about">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#section-industry">Industrias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#section-products">Productos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="section-carousel">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="images/cleco-img-1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="images/5.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-      </nav>
-    </header>
-    <main class="container">
-      <section class="section-carousel">
-        <div class="d-flex justify-content-center align-items-center">
-          <div
-            id="carouselExampleInterval"
-            class="carousel carousel-dark slide col-sm-10 col-md-10"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="4000">
-                <img
-                  src="images/cleco-img-1.jpeg"
-                  class="d-block w-100 carousel-img"
-                  alt="foto ilustrativa de cleco"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img
-                  src="images/cleco-img-2.jpeg"
-                  class="d-block w-100 carousel-img"
-                  alt="foto ilustrativa de cleco"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img
-                  src="images/cleco-img-3.jpeg"
-                  class="d-block w-100 carousel-img"
-                  alt="foto ilustrativa de cleco"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img
-                  src="images/cleco-img-4.jpeg"
-                  class="d-block w-75 mx-auto carousel-img"
-                  alt="foto ilustrativa de cleco"
-                />
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img
-                  src="images/cleco-img-5.jpeg"
-                  class="d-block w-50 mx-auto carousel-img"
-                  alt="foto ilustrativa de cleco"
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleInterval"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleInterval"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </section>
-      <!-- <section class="section-about"></section> -->
-      <section class="section-industry" id="section-industry">
-        <h2>Industrias</h2>
-        <div>
-          <div class="row">
-            <div class="col-md-6 col-sm-6">
-              <div class="card">
-                <img src="images/avion.avif" alt="avion despegando"/>
-                <div class="overlay">
-                  <div class="message">
-                    En un industria que requiere fuerza bajo presión y
-                    durabilidad a altas velocidades, utilice herramientas
-                    fuertes y poderosas.
-                  </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- <section class="section-about"></section> -->
+    <section class="section-industry container" id="section-industry">
+      <h2>Industrias</h2>
+      <div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <img src="images/avion.avif" alt="avion despegando" />
+              <div class="overlay">
+                <div class="message">
+                  En un industria que requiere fuerza bajo presión y
+                  durabilidad a altas velocidades, utilice herramientas
+                  fuertes y poderosas.
                 </div>
+              </div>
+              <div class="span-container">
                 <span>Aeroespacial</span>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="card">
-                <img src="images/petroleo.jpg" alt="foto de extracción petroleo"/>
-                <div class="overlay">
-                  <div class="message">
-                    El petróleo y el gas exigen una variedad de herramientas que
-                    ofrezcan confiabilidad, versatilidad y potencia. Explore
-                    opciones de alta calidad para producción, transporte y
-                    refinación.
-                  </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <img src="images/petroleo.jpg" alt="foto de extracción petroleo" />
+              <div class="overlay">
+                <div class="message">
+                  El petróleo y el gas exigen una variedad de herramientas que
+                  ofrezcan confiabilidad, versatilidad y potencia. Explore
+                  opciones de alta calidad para producción, transporte y
+                  refinación.
                 </div>
-                <span>Petróleo, gas y petroquímica </span>
               </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="card">
-                <img src="images/metalurgica.jpg" alt="foto de metalurgica"/>
-                <div class="overlay">
-                  <div class="message">
-                    Cuando necesite precisión y calidad en fundición y
-                    metalurgia, obtenga herramientas que ofrezcan rendimiento y
-                    durabilidad constantes.
-                  </div>
-                </div>
-                <span>Fundición y metalurgia </span>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="card">
-                <img src="images/energia.jpg" alt="turbina eólica"/>
-                <div class="overlay">
-                  <div class="message">
-                    Para el montaje de componentes y el mantenimiento de
-                    aplicaciónes de generación de energía eléctrica, incluidas
-                    plantas de carbón, gas natural, eólicas e hidroeléctricas,
-                    puede contar con APEX Global Power Tools
-                  </div>
-                </div>
-                <span>Generación de energía</span>
-              </div>
+              <span>Petróleo, gas y petroquímica </span>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6 col-sm-6">
-              <div class="card">
-                <img src="images/ensamblaje.jpg" alt=" ensamblaje de autos"/>
-                <div class="overlay">
-                  <div class="message">
-                    La fabricación de ensamblajes requiere coherencia y
-                    precisión al ejecutar trabajos de gran volumen
-                  </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <img src="images/metalurgica.jpg" alt="foto de metalurgica" />
+              <div class="overlay">
+                <div class="message">
+                  Cuando necesite precisión y calidad en fundición y
+                  metalurgia, obtenga herramientas que ofrezcan rendimiento y
+                  durabilidad constantes.
                 </div>
-                <span>Fabricación de ensamblaje</span>
               </div>
+              <span>Fundición y metalurgia </span>
             </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="card">
-                <img src="images/ferroviario.jpg" alt="tren"/>
-                <div class="overlay">
-                  <div class="message">
-                    El desgaste de un ferrocarril exige herramientas potentes
-                    que puedan ayudar a proporcionar mantenimineto,
-                    reparaciones, reemplazos sólidos y confiables.
-                  </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <img src="images/energia.jpg" alt="turbina eólica" />
+              <div class="overlay">
+                <div class="message">
+                  Para el montaje de componentes y el mantenimiento de
+                  aplicaciónes de generación de energía eléctrica, incluidas
+                  plantas de carbón, gas natural, eólicas e hidroeléctricas,
+                  puede contar con APEX Global Power Tools
                 </div>
-                <span>Ferroviario y rodante</span>
               </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="card">
-                <img src="images/automotriz.jpg" alt="construcción de un auto" />
-                <div class="overlay">
-                  <div class="message">
-                    APEX Global Power Tools ha sido pionero en innovaciones y
-                    soluciones para las aplicaciones desafiantes y los
-                    requisitos estrictos de la industria de vehículos durante
-                    decadas.
-                  </div>
-                </div>
-                <span>Automotriz</span>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="card">
-                <img src="images/naval.jpg" alt="Barco siendo construido" />
-                <div class="overlay">
-                  <div class="message">
-                   La construcción de un barco digno es una tarea que requiere herramientas
-                    potentes y duraderas que proporcionen un producto final excepcional. 
-                    APEX Global Power Tools ofrece todo lo que necesita para trabajar de manera
-                    eficiente y efectiva en una fábrica o muelle.
-                  </div>
-                </div>
-                <span>Naval</span>
-              </div>
-            </div>
+              <span>Generación de energía</span>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <img src="images/ensamblaje.jpg" alt=" ensamblaje de autos" />
+              <div class="overlay">
+                <div class="message">
+                  La fabricación de ensamblajes requiere coherencia y
+                  precisión al ejecutar trabajos de gran volumen
+                </div>
+              </div>
+              <span>Fabricación de ensamblaje</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <img src="images/ferroviario.jpg" alt="tren" />
+              <div class="overlay">
+                <div class="message">
+                  El desgaste de un ferrocarril exige herramientas potentes
+                  que puedan ayudar a proporcionar mantenimineto,
+                  reparaciones, reemplazos sólidos y confiables.
+                </div>
+              </div>
+              <span>Ferroviario y rodante</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <img src="images/automotriz.jpg" alt="construcción de un auto" />
+              <div class="overlay">
+                <div class="message">
+                  APEX Global Power Tools ha sido pionero en innovaciones y
+                  soluciones para las aplicaciones desafiantes y los
+                  requisitos estrictos de la industria de vehículos durante
+                  decadas.
+                </div>
+              </div>
+              <span>Automotriz</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="card">
+              <img src="images/naval.jpg" alt="Barco siendo construido" />
+              <div class="overlay">
+                <div class="message">
+                  APEX Global Power Tools proporciona herramientas potentes y duraderas para la construcción de barcos,
+                  garantizando eficiencia y efectividad en fábricas y muelles.
+                </div>
+              </div>
+              <span>Naval</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="section-products container" id="section-products">
+      <h2>Productos</h2>
+      <div class="container-fluid">
+        <img src="images/cleco-logo.avif" alt="logo cleco" class="logo">
+      </div>
+      
+    </section>
+    
+  </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </html>
