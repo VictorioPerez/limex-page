@@ -221,11 +221,12 @@ img {
     height: 250px;
   }
 
-  .carousel-control-prev,
-  .carousel-control-next {
-    display: none; /* ESTO ES UNA PRUEBA, REVISAR SI ANDA SIN Q HAYAN LOS BOTONES */
-  }
-
+.carousel-control-prev{
+  display: none !important;
+}
+.carousel-control-next{
+  display: none !important;
+}
   h3 {
     background-color: #fff;
     margin-bottom: 0px !important;
