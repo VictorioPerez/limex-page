@@ -1,8 +1,8 @@
 /* color naranja E35205 */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather&family=Oswald:wght@300&family=Secular+One&display=swap');
 * {
-  font-family: sans-serif;
-  font-weight: 500;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 .navbar {
@@ -17,7 +17,7 @@
 }
 h2 {
   font-family: sans-serif;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.5px;
   font-size: medium;
 }
 h2::first-letter {
@@ -28,9 +28,9 @@ h2::first-letter {
   padding-left: 300px;
 }
 .navbarContainer>ul>li>a{
-  font-family: sans-serif;
-  font-weight: bold;
-}
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  }
 li > a {
   position: relative;
   text-decoration: none;
@@ -128,4 +128,48 @@ li > a:hover::before {
   display: block; 
   margin: auto;
   
+}
+
+
+/* Producto */
+.image-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: bottom 0.3s ease-out;
+}
+
+
+.caption-title {
+  margin: 0;
+  font-size: 24px;
+  transition: bottom 0.3s ease-out; /* Applying the same transition */
+}
+
+.caption-description {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  display: none;
+}
+
+.image-container:hover .caption-description,
+.image-container:hover .caption-title {
+  display: block;
 }
