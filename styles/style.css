@@ -9,7 +9,7 @@
   background-color: rgba(255, 255, 255, 0.9);
 }
 .section-carousel {
-  margin-top: 75px;
+  margin-top: 70px;
 }
 
 .section-services {
@@ -192,20 +192,47 @@ img {
 
 
 @media (max-width: 576px) {
-  .message {
-      font-size: 0.8em; 
+  .section-carousel {  
+    margin-top: 60px;
   }
 
-  .navbarContainer{
+  .message {
+    font-size: 0.8em; 
+  }
+
+  .navbarContainer {
     padding-left: 0px;
   }
 
   .navbar-brand img {
-    max-width: 80px; /* Ajusta el tamaño del logo a 80px */
+    max-width: 100px; /* Ajusta el tamaño del logo a 80px */
   }
 
   .carousel-item img {
-    height: 300px; /* Ajusta la altura de las imágenes del carousel a 300px */
     object-fit: cover; /* Asegura que las imágenes se ajusten dentro del contenedor del carousel */
   }
+
+  h3 {
+    background-color: #fff;
+    margin-bottom: 0px!important;
+    display: block;
+    background-color: #fff;
+    color: black;
+    padding: 1rem;
+  }
+
+  .item__overlay {
+    height: 50%; /* Ajusta la altura al 50% en dispositivos móviles */
+    top: 50%; /* Alinea el overlay en el centro verticalmente en dispositivos móviles */
+    transform: translateY(-50%); /* Alinea el overlay en el centro verticalmente en dispositivos móviles */
+    transition: transform 300ms; /* Asegura que la transición se aplique correctamente */
+    background-color: lighten(turquoise, 15%);
+    transform: translate3d(0, calc(100% - 3.5rem), 0); /* Ajusta la transformación inicial */
+  }
+
+  .item:hover .item__overlay,
+  .item:focus .item__overlay {
+    transform: translate3d(0, 0, 0); /* Ajusta la transformación */
+  }
 }
+
