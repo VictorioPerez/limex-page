@@ -110,16 +110,6 @@ li > a:hover::before {
   display: none;
 }
 
-@media (max-width: 576px) {
-    .message {
-        font-size: 0.8em; 
-    }
-
-    .navbarContainer{
-      padding-left: 0px;
-    }
-}
-
 /* Productos */
 .section-products{
   margin-bottom: 150px;
@@ -197,5 +187,25 @@ img {
   
   p {
     margin: 0;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .message {
+      font-size: 0.8em; 
+  }
+
+  .navbarContainer{
+    padding-left: 0px;
+  }
+
+  .navbar-brand img {
+    max-width: 80px; /* Ajusta el tamaño del logo a 80px */
+  }
+
+  .carousel-item img {
+    height: 300px; /* Ajusta la altura de las imágenes del carousel a 300px */
+    object-fit: cover; /* Asegura que las imágenes se ajusten dentro del contenedor del carousel */
   }
 }
