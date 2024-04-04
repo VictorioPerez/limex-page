@@ -1,5 +1,5 @@
 /* color naranja E35205 */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather&family=Oswald:wght@300&family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather&family=Oswald:wght@300&family=Secular+One&display=swap");
 * {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -24,13 +24,13 @@ h2::first-letter {
   color: #e35205;
 }
 
-.navbarContainer{
+.navbarContainer {
   padding-left: 300px;
 }
-.navbarContainer>ul>li>a{
+.navbarContainer > ul > li > a {
   font-family: "Lato", sans-serif;
   font-weight: 600;
-  }
+}
 li > a {
   position: relative;
   text-decoration: none;
@@ -111,16 +111,15 @@ li > a:hover::before {
 }
 
 /* Productos */
-.section-products{
+.section-products {
   margin-bottom: 150px;
 }
 .logo {
   width: 250px;
-  max-width: 100%; 
-  height: auto; 
-  display: block; 
+  max-width: 100%;
+  height: auto;
+  display: block;
   margin: auto;
-  
 }
 .item {
   position: relative;
@@ -128,7 +127,7 @@ li > a:hover::before {
   background-color: lightGrey;
   overflow-y: hidden;
   box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.1);
-  
+
   h3 {
     margin: 0;
     display: block;
@@ -136,7 +135,7 @@ li > a:hover::before {
     color: black;
     padding: 1rem;
   }
-  
+
   .displayer {
     position: absolute;
     top: 0;
@@ -144,7 +143,7 @@ li > a:hover::before {
     width: 100%;
     height: 100%;
     z-index: 1;
-    
+
     &:hover,
     &:focus {
       ~ .item__overlay {
@@ -169,14 +168,20 @@ img {
   position: absolute;
   width: 100%;
   top: 50%; /* Cambiado a 50% */
-  transform: translateY(-50%); /* Alinea el centro del overlay con el centro de la imagen */
+  transform: translateY(
+    -50%
+  ); /* Alinea el centro del overlay con el centro de la imagen */
   transition: transform 300ms;
   background-color: lighten(turquoise, 15%);
   transform: translate3d(0, calc(100% - 3.5rem), 0);
 }
 .item:hover .item__overlay, /* Cambiado para aplicar a la clase item al hacer hover */
 .item:focus .item__overlay {
-  transform: translate3d(0, 50%, 0); /* Cambiado para que el overlay se desplace hacia arriba el 50% */
+  transform: translate3d(
+    0,
+    50%,
+    0
+  ); /* Cambiado para que el overlay se desplace hacia arriba el 50% */
 }
 
 .item__body {
@@ -184,20 +189,20 @@ img {
   padding: 1rem;
   background-color: #fff;
   color: #000;
-  
+
   p {
     margin: 0;
   }
 }
 
-
 @media (max-width: 576px) {
-  .section-carousel {  
+  .section-carousel {
     margin-top: 60px;
+    
   }
 
   .message {
-    font-size: 0.8em; 
+    font-size: 0.8em;
   }
 
   .navbarContainer {
@@ -208,13 +213,22 @@ img {
     max-width: 100px; /* Ajusta el tamaño del logo a 80px */
   }
 
-  .carousel-item img {
-    object-fit: cover; /* Asegura que las imágenes se ajusten dentro del contenedor del carousel */
+  .carousel {
+    height: 250px; /* Ajusta la altura a automática para dispositivos más grandes */
+  }
+
+  .carousel-item>img{
+    height: 250px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: block; /* Muestra los controles de navegación en dispositivos más grandes */
   }
 
   h3 {
     background-color: #fff;
-    margin-bottom: 0px!important;
+    margin-bottom: 0px !important;
     display: block;
     background-color: #fff;
     color: black;
@@ -224,10 +238,16 @@ img {
   .item__overlay {
     height: 50%; /* Ajusta la altura al 50% en dispositivos móviles */
     top: 50%; /* Alinea el overlay en el centro verticalmente en dispositivos móviles */
-    transform: translateY(-50%); /* Alinea el overlay en el centro verticalmente en dispositivos móviles */
+    transform: translateY(
+      -50%
+    ); /* Alinea el overlay en el centro verticalmente en dispositivos móviles */
     transition: transform 300ms; /* Asegura que la transición se aplique correctamente */
     background-color: lighten(turquoise, 15%);
-    transform: translate3d(0, calc(100% - 3.5rem), 0); /* Ajusta la transformación inicial */
+    transform: translate3d(
+      0,
+      calc(100% - 3.5rem),
+      0
+    ); /* Ajusta la transformación inicial */
   }
 
   .item:hover .item__overlay,
@@ -235,4 +255,3 @@ img {
     transform: translate3d(0, 0, 0); /* Ajusta la transformación */
   }
 }
-
