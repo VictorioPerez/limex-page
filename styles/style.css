@@ -210,7 +210,7 @@ img {
   }
 
   .navbar-brand img {
-    max-width: 100px; /* Ajusta el tamaño del logo a 80px */
+    max-width: 150px; 
   }
 
   .carousel {
