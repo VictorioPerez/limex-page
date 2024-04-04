@@ -223,7 +223,7 @@ img {
 
   .carousel-control-prev,
   .carousel-control-next {
-    display: block; /* Muestra los controles de navegación en dispositivos más grandes */
+    display: none; /* ESTO ES UNA PRUEBA, REVISAR SI ANDA SIN Q HAYAN LOS BOTONES */
   }
 
   h3 {
