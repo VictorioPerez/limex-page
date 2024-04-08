@@ -195,38 +195,33 @@ img {
   }
 }
 
+/* Responsive */
 @media (max-width: 576px) {
   .section-carousel {
     margin-top: 60px;
-    
   }
-
-  .message {
-    font-size: 0.8em;
-  }
-
   .navbarContainer {
     padding-left: 0px;
   }
 
   .navbar-brand img {
-    max-width: 150px; 
+    max-width: 150px;
   }
 
   .carousel {
     height: 250px; /* Ajusta la altura a automática para dispositivos más grandes */
   }
 
-  .carousel-item>img{
+  .carousel-item > img {
     height: 250px;
   }
 
-.carousel-control-prev{
-  display: none !important;
-}
-.carousel-control-next{
-  display: none !important;
-}
+  .carousel-control-prev {
+    display: none !important;
+  }
+  .carousel-control-next {
+    display: none !important;
+  }
   h3 {
     background-color: #fff;
     margin-bottom: 0px !important;
@@ -255,4 +250,39 @@ img {
   .item:focus .item__overlay {
     transform: translate3d(0, 0, 0); /* Ajusta la transformación */
   }
+
+  .message {
+    display: none;
+  }
+
+  .card {
+    position: relative; /* Establece la posición relativa para los elementos absolutos dentro */
+  }
+  
+  .card > span {
+    display: none; /* Oculta el span inicialmente en dispositivos móviles */
+    position: absolute;
+    top: 15px; 
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de su contenedor */
+    padding: 10px;
+    background: none;
+    color: #fff;
+    text-align: center;
+    opacity: 0; /* Inicialmente transparente para efecto de transición */
+    transition: opacity 0.3s ease; /* Transición suave de opacidad */
+  }
+  
+  .card:hover > span {
+    opacity: 1; /* Hace visible el span al hacer hover en la tarjeta */
+    display: block;
+  }
+  .overlay{
+    background: none;
+  }
+  .card:hover img {
+    filter: brightness(50%); 
+  }
+  
+
 }
