@@ -20,7 +20,7 @@ h2 {
   letter-spacing: 0.5px;
   font-size: medium;
 }
-h2::first-letter {
+h2::first-letter, h3::first-letter  {
   color: #e35205;
 }
 
@@ -111,15 +111,25 @@ li > a:hover::before {
 }
 
 /* Productos */
+h5{
+  padding-left: 115px;
+  padding-right: 50px;
+}
+.imgClecoProduct{
+  width: 200%;
+}
+.imgProductCleco3{
+  width: 453px;
+}
 .section-products {
   margin-bottom: 150px;
+}
+h2{
+  text-align: center;
 }
 .logo {
   width: 250px;
   max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
 }
 .item {
   position: relative;
@@ -194,6 +204,26 @@ img {
     margin: 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive */
 @media (max-width: 576px) {
