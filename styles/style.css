@@ -111,6 +111,13 @@ li > a:hover::before {
 }
 
 /* Productos */
+h2{
+  text-align: center;
+}
+.logo {
+  width: 250px;
+  max-width: 100%;
+}
 h5{
   padding-left: 115px;
   padding-right: 50px;
@@ -124,13 +131,26 @@ h5{
 .section-products {
   margin-bottom: 150px;
 }
-h2{
-  text-align: center;
+.imgProductCleco7{
+  margin-top: 75px;
 }
-.logo {
+.containerInfoProduct8>h3{
+width: 200px;
+}
+.containerInfoProduct8>p{
   width: 250px;
-  max-width: 100%;
 }
+.containerInfoProduct8{
+  margin-left: 80px;
+}
+.imgAtornillador{
+  width: 210px;
+}
+.imgAtornilladorGrande{
+  width: 900px;
+}
+
+/* ---- */
 .item {
   position: relative;
   height: 19rem;
