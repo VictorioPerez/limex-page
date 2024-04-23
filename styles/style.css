@@ -261,6 +261,7 @@ img {
     margin: 0;
   }
 
+
 }
 
 /* Responsive */
@@ -410,7 +411,7 @@ img {
     width: 100%;
   }
   .titleDescriptionBNP {
-    margin-top: 100px;
+    margin-top: 150px;
   }
   .textNeoTek {
     text-align: center;
