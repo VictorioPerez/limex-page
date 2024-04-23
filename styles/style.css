@@ -405,4 +405,10 @@ img {
     padding-left: 5px;
     padding-right: 5px;
   }
+  .containerResponsive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
