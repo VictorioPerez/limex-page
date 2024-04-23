@@ -408,4 +408,16 @@ img {
   .titleDescriptionBNP{
     margin-top: 100px;
   }
+  img {
+    max-width: 100%; /* Hace que las imágenes se ajusten al ancho de la pantalla */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  .section-industry, .section-products {
+    padding: 0; /* Elimina el padding de las secciones */
+  }
+
+  .titleDescription {
+    margin-top: 1.5rem; /* Ajuste del margen superior */
+    margin-bottom: 1rem; /* Ajuste del margen inferior */
+  }
 }
