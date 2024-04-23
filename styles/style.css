@@ -208,7 +208,10 @@ footer {
     }
   }
 }
-
+.containerApex{
+  margin-left: 130px;
+  margin-right: 130px;
+}
 .recoulesLogo {
   width: 250px;
   height: auto;
@@ -425,5 +428,8 @@ img {
   .containerResponsive .col-sm-6 {
     margin: 0 auto; /* Centra los elementos en dispositivos móviles */
     float: none; /* Evita que los elementos floten en dispositivos móviles */
+  }
+  .containerApex{
+    width: 335px;
   }
 }
