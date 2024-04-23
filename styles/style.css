@@ -269,6 +269,9 @@ img {
     margin: 0;
   }
 }
+.imgDaytonApex{
+  width: 75%;
+}
 
 /* Responsive */
 @media (max-width: 576px) {
@@ -430,6 +433,10 @@ img {
     float: none; /* Evita que los elementos floten en dispositivos móviles */
   }
   .containerApex{
-    width: 335px;
+    width: 355px;
+  }
+  
+  .imgDaytonApex{
+    width: 100%;
   }
 }
