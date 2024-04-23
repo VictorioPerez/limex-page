@@ -124,7 +124,7 @@ h2 {
   max-width: 100%;
   height: 138px;
 }
-h5 {
+.descriptionProductCleco {
   padding-left: 115px;
   padding-right: 50px;
 }
@@ -156,7 +156,18 @@ h5 {
 .infoApexProducts {
   width: 600px;
 }
-
+.imgProductCleco6 {
+  width: 75%;
+}
+.imgApexProduct1 {
+  width: 75%;
+}
+.imgApexProduct4 {
+  width: 75%;
+}
+.imgProductRecoules1{
+  width: 50%;
+}
 /* FOOTER */
 footer {
   background-color: #e35205;
@@ -327,5 +338,74 @@ img {
   }
   .card:hover img {
     filter: brightness(50%);
+  }
+
+  .descriptionProductCleco {
+    padding-top: 20px;
+    padding-left: 54px;
+    text-align: center;
+    padding-bottom: 27px;
+    margin-bottom: 120px;
+    width: 364px;
+    height: 135px;
+  }
+  .imgClecoProduct {
+    width: 388px;
+    position: relative;
+    right: 38px;
+  }
+  .imgProductCleco3 {
+    width: 360px;
+  }
+  .imgAtornilladorGrande {
+    width: 380px;
+  }
+  .infoApexProducts {
+    width: 100px;
+  }
+  .imgProductCleco6 {
+    width: 100%;
+  }
+  .containerInfoProduct8 {
+    width: 355px;
+    margin-left: 0px;
+  }
+  .imgProductCleco8 {
+    width: 364px;
+  }
+  .imgAtornillador {
+    width: 270px;
+    height: auto;
+  }
+  .columnaApex {
+    margin-top: 120px !important;
+  }
+  .logoApexContainer {
+    height: 40px;
+  }
+  .imgApexProduct1 {
+    width: 380px;
+    height: 165px;
+  }
+  .imgApexProduct2 {
+    width: 389px;
+    height: 161px;
+  }
+  .imgApexProduct3 {
+    height: 115px;
+  }
+  .infoApexProducts {
+    width: 323px;
+    padding: 10px;
+  }
+  .imgApexProduct4 {
+    width: 400px;
+    height: 180px;
+  }
+  .imgProductRecoules1{
+    width: 100%;
+  }
+  .titleDescriptionBNP{
+    margin-top: 100px;
   }
 }
