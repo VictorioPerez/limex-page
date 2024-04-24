@@ -296,7 +296,7 @@ img {
   width: 75%;
 }
 .blur img {
-  transition: filter 1s ease;
+  transition: filter 0.3s ease;
 }
 
 .blur .download-btn {
