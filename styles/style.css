@@ -24,7 +24,8 @@ h2 {
   font-size: medium;
 }
 h2::first-letter,
-h3::first-letter {
+h3::first-letter,
+h1::first-letter {
   color: #e35205;
 }
 
@@ -115,8 +116,10 @@ li > a:hover::before {
 }
 
 /* Productos */
-h2 {
+
+h1 {
   text-align: center;
+  
 }
 .logo-container {
   display: flex;
