@@ -11,7 +11,10 @@
 .section-carousel {
   margin-top: 70px;
 }
-
+ul > li {
+  list-style-type: none;
+  font-weight: bold;
+}
 .section-services {
   margin-top: 30px;
 }
@@ -166,8 +169,28 @@ h2 {
   width: 75%;
 }
 .imgProductRecoules1 {
-  width: 50%;
+  width: 75%;
 }
+/* Estilos para el texto en inglés */
+.english-text {
+  display: block;
+}
+/* Estilos para el texto en español (inicialmente oculto) */
+.spanish-text {
+  display: none;
+}
+.text-container {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+/* Cambiar el contenido del elemento cuando se pasa el mouse sobre él */
+.text-container:hover .english-text {
+  display: none;
+}
+.text-container:hover .spanish-text {
+  display: block;
+}
+
 /* FOOTER */
 footer {
   background-color: #e35205;
@@ -208,7 +231,7 @@ footer {
     }
   }
 }
-.containerApex{
+.containerApex {
   margin-left: 130px;
   margin-right: 130px;
 }
@@ -269,7 +292,7 @@ img {
     margin: 0;
   }
 }
-.imgDaytonApex{
+.imgDaytonApex {
   width: 75%;
 }
 
@@ -432,12 +455,15 @@ img {
     margin: 0 auto; /* Centra los elementos en dispositivos móviles */
     float: none; /* Evita que los elementos floten en dispositivos móviles */
   }
-  .containerApex{
+  .containerApex {
     width: 355px;
     padding: 10px;
   }
-  
-  .imgDaytonApex{
+  .text-container {
+    width: 355px;
+    padding: 10px;
+  }
+  .imgDaytonApex {
     width: 355px;
     height: auto;
   }
