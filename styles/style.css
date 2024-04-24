@@ -295,6 +295,35 @@ img {
 .imgDaytonApex {
   width: 75%;
 }
+.blur img {
+  transition: filter 1s ease;
+}
+
+.blur .download-btn {
+  display: none;
+  position: absolute;
+  bottom: 145px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 16px;
+  background-color: #e35205;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  z-index: 5;
+  width: 140px;
+}
+
+.blur:hover img {
+  filter: blur(3px);
+}
+.blur{
+  position: relative; /* Asegurar que el contenedor tenga posición relativa */
+}
+.blur:hover .download-btn {
+  display: block;
+}
+
 
 /* Responsive */
 @media (max-width: 576px) {
