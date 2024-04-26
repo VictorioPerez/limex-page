@@ -8,6 +8,9 @@
 .navbar {
   background-color: rgba(255, 255, 255, 0.9);
 }
+.navbar-nav{
+  margin-left: 65px;
+}
 .section-carousel {
   margin-top: 70px;
 }
@@ -363,6 +366,9 @@ img {
 
 /* Responsive */
 @media (max-width: 576px) {
+  .navbar-nav{
+  margin-left: 0px;
+}
   .section-carousel {
     margin-top: 60px;
   }
