@@ -8,7 +8,7 @@
 .navbar {
   background-color: rgba(255, 255, 255, 0.9);
 }
-.navbar-nav{
+.navbar-nav {
   margin-left: 65px;
 }
 .section-carousel {
@@ -63,9 +63,8 @@ li > a:hover::before {
   transform: scaleX(1);
 }
 
-
 /* Productos */
- .titulo1::after {
+.titulo1::after {
   content: "";
   position: absolute;
   width: 26.125rem;
@@ -75,7 +74,7 @@ li > a:hover::before {
   left: 0px;
 }
 
- .titulo1::before {
+.titulo1::before {
   content: "";
   position: absolute;
   width: 26.125rem;
@@ -95,7 +94,7 @@ li > a:hover::before {
   left: -12px;
 }
 
- .titulo2::before {
+.titulo2::before {
   content: "";
   position: absolute;
   width: 26.125rem;
@@ -105,7 +104,7 @@ li > a:hover::before {
   right: -12px;
 }
 
-.titulo3::after{
+.titulo3::after {
   content: "";
   position: absolute;
   width: 24.125rem;
@@ -114,7 +113,7 @@ li > a:hover::before {
   top: 3.6em;
   left: -10px;
 }
-.titulo3::before{
+.titulo3::before {
   content: "";
   position: absolute;
   width: 24.125rem;
@@ -123,7 +122,7 @@ li > a:hover::before {
   top: 3.6em;
   right: -10px;
 }
-.titulo4::after{
+.titulo4::after {
   content: "";
   position: absolute;
   width: 27.125rem;
@@ -132,7 +131,7 @@ li > a:hover::before {
   top: 4.6em;
   left: 2px;
 }
-.titulo4::before{
+.titulo4::before {
   content: "";
   position: absolute;
   width: 27.125rem;
@@ -144,7 +143,6 @@ li > a:hover::before {
 
 h1 {
   text-align: center;
-  
 }
 .logo-container {
   display: flex;
@@ -160,7 +158,7 @@ h1 {
   padding-left: 115px;
   padding-right: 50px;
 }
-.highlight{
+.highlight {
   color: #e35205;
 }
 .imgClecoProduct {
@@ -222,13 +220,12 @@ h1 {
 .text-container:hover .spanish-text {
   display: block;
 }
-.containerClecoText:hover .english-text{
+.containerClecoText:hover .english-text {
   display: none;
 }
-.containerClecoText:hover .spanish-text{
+.containerClecoText:hover .spanish-text {
   display: block;
 }
-
 
 /* FOOTER */
 footer {
@@ -356,19 +353,28 @@ img {
 .blur:hover img {
   filter: blur(3px);
 }
-.blur{
+.blur {
   position: relative; /* Asegurar que el contenedor tenga posición relativa */
 }
 .blur:hover .download-btn {
   display: block;
 }
+.containerApexProducts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+}
 
-
+.containerApexProducts>img{
+  height: 70%;
+  width: auto;
+}
 /* Responsive */
 @media (max-width: 576px) {
-  .navbar-nav{
-  margin-left: 0px;
-}
+  .navbar-nav {
+    margin-left: 0px;
+  }
   .section-carousel {
     margin-top: 60px;
   }
@@ -537,5 +543,33 @@ img {
   .imgDaytonApex {
     width: 355px;
     height: auto;
+  }
+  .titulo1::after {
+    display: none;
+  }
+
+  .titulo1::before {
+    display: none;
+  }
+
+  .titulo2::after {
+    display: none;
+  }
+
+  .titulo2::before {
+    display: none;
+  }
+
+  .titulo3::after {
+    display: none;
+  }
+  .titulo3::before {
+    display: none;
+  }
+  .titulo4::after {
+    display: none;
+  }
+  .titulo4::before {
+    display: none;
   }
 }
