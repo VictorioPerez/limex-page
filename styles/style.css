@@ -1,9 +1,18 @@
 /* color naranja E35205 */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather&family=Oswald:wght@300&family=Secular+One&display=swap");
-* {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+@font-face {
+  font-family: "Futura";
+  src: url("../font/FUTURA55REGULAR.TTF") format("truetype");
   font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Italics';
+  src: url("../font/texgyreadventor-regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+p{
+  font-family: "Italics",sans-serif;
 }
 .navbar {
   background-color: rgba(255, 255, 255, 0.9);
@@ -366,9 +375,15 @@ img {
   margin-top: 60px;
 }
 
-.containerApexProducts>img{
+.containerApexProducts > img {
   height: 70%;
   width: auto;
+}
+.columnApexText{
+  width: 480px !important;
+}
+.containerListApexText>ul>li{
+  font-size: 0.9rem !important;
 }
 /* Responsive */
 @media (max-width: 576px) {

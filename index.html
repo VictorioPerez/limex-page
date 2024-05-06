@@ -49,15 +49,33 @@
                 >
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#section-products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#section-products"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Productos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#cleco-section">Cleco</a></li>
-                  <li><a class="dropdown-item" href="#apex-section">Apex</a></li>
-                  <li><a class="dropdown-item" href="#recoules-section">Recoules</a></li>
-                  <li><a class="dropdown-item" href="#dotco-section">Dotco</a></li>
-                  <li><a class="dropdown-item" href="#norbar-section">Norbar</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#cleco-section">Cleco</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#apex-section">Apex</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#recoules-section"
+                      >Recoules</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#dotco-section">Dotco</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#norbar-section">Norbar</a>
+                  </li>
                   <li><a class="dropdown-item" href="#BNP-section">BNP</a></li>
                 </ul>
               </li>
@@ -116,13 +134,28 @@
           </button>
         </div>
       </section>
-      <section class="section-products container" id="section-products">
+      <section class="section-products container-fluid" id="section-products">
         <h1 class="titleProducts mt-5">Productos</h1>
         <div class="container-fluid">
           <div class="logo-container titulo1 mt-4" id="cleco-section">
             <img src="images/cleco-logo.png" alt="logo cleco" class="logo" />
           </div>
         </div>
+        <div class="col-md-12 col-12 d-flex justify-content-center">
+          <div>
+              <iframe
+                  width="800"
+                  height="500"
+                  src="https://www.youtube.com/embed/GkMR0HIWAdw?si=h-VZAnjE93Ch4Vjx"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+              ></iframe>
+          </div>
+      </div>
+      
         <h3 class="text-center titleDescription m-4 mb-5">
           Husillos inteligentes para estaciones de atornillado
         </h3>
@@ -342,7 +375,7 @@
               <img src="images/apex-logo.jpg" alt="logo apex" class="logo" />
             </div>
           </div>
-          <div class="row columnaApex">
+          <div class="row columnaApex g-0">
             <div
               class="col-md-12 col-12 d-flex justify-content-center align-items-center flex-column"
             >
@@ -368,12 +401,6 @@
                   expertise spans various industries, some of the sectors we
                   cater to include:
                 </p>
-                <ul class="english-text">
-                  <li>Automotive</li>
-                  <li>Aerospace</li>
-                  <li>Appliances, Electronics & Industrial Assembly</li>
-                  <li>Agriculture & Off-Road Machinery</li>
-                </ul>
                 <h4 class="titleDescription m-4 spanish-text">
                   Revoluciona tus Operaciones: Soluciones Innovadoras para una
                   Mayor Eficiencia, Productividad y Seguridad
@@ -392,54 +419,94 @@
                   industrias, algunos de los sectores a los que atendemos
                   incluyen:
                 </p>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column columnApexText"
+            >
+              <div
+                class="containerApex containerClecoText containerListApexText"
+              >
+                <ul class="english-text">
+                  <li>-Automotive</li>
+                  <li>-Aerospace</li>
+                  <li>-Appliances, Electronics & Industrial Assembly</li>
+                  <li>-Agriculture & Off-Road Machinery</li>
+                  <li class="pt-4">-Screwdriver Bits</li>
+                  <li>-Bit Holders</li>
+                  <li>-Sockets & Universal Wrenches</li>
+                  <li>-Extensions & Adapters</li>
+                  <li>-High Voltage Solutions</li>
+                  <li>-Custom Solutions & Speciality Tools</li>
+                  <li>-u-GUARD™ Anti-Mar Protective Covers</li>
+                  <li>-Universal Joints</li>
+                </ul>
                 <ul class="spanish-text">
-                  <li>Automotriz</li>
-                  <li>Aeroespacial</li>
+                  <li>-Automotriz</li>
+                  <li>-Aeroespacial</li>
                   <li>
-                    Electrodomésticos, Electrónica y Ensamblaje Industrial
+                    -Electrodomésticos, Electrónica y Ensamblaje Industrial
                   </li>
-                  <li>Agricultura y Maquinaria Todo Terreno</li>
+                  <li>-Agricultura y Maquinaria Todo Terreno</li>
+                  <li class="pt-4">-Puntas de destornillador</li>
+                  <li>-Portapuntas</li>
+                  <li>-Llaves de vaso y llaves universales</li>
+                  <li>-Extensiones y adaptadores</li>
+                  <li>-Soluciones de alto voltaje</li>
+                  <li>
+                    -Soluciones personalizadas y herramientas especializadas
+                  </li>
+                  <li>-Cubiertas protectoras anti-marca u-GUARD™</li>
+                  <li>-Juntas universales</li>
                 </ul>
               </div>
+            </div>
+            <div
+              class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column"
+            >
               <img
                 src="images/img-producto-apex-5.png"
                 alt="herramientas de apex"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="col-md-12 col-12 d-flex justify-content-center align-items-center flex-column"
+            >
+              <img
+                src="images/apex-product-tornillos.png"
+                class="w-75 pt-4"
+                alt="tornillos de apex"
+              />
+              <img
+                src="images/apex-bit-holders.png"
                 class="w-75"
+                alt="bit holders apex"
               />
               <img
-                src="images/img-producto-apex-1.png"
-                class="imgApexProduct1"
-                alt="producto apex"
+                src="images/apex-sockets-and-wrenches.png"
+                class="w-75"
+                alt="sockets and universal wrenches apex"
               />
               <img
-                src="images/img-producto-apex-3.png"
-                class="imgApexProduct3"
-                alt="producto apex"
-              />
-              <!-- --------------------------- -->
-              <div class="containerApexProducts">
-                <img
-                  src="images/img-producto-apex-2.1.png"
-                  class="imgApexProduct2"
-                  alt="producto apex"
-                />
-                <img
-                src="images/apex-u-guard.jpg"
-                class="imgApexProduct2"
-                alt="producto apex"
+                src="images/apex-extensions-and-adapters.png"
+                alt="extensions and adapters apex"
               />
               <img
-              src="images/aislacion-industria.png"
-              class="imgApexProduct2"
-              alt="producto apex"
-            />
-              </div>
-              <img
-                src="images/img-producto-apex-4.png"
-                class="imgApexProduct4"
-                alt="productos de apex"
+                src="images/apex-specialty-tools.png"
+                class="w-75"
+                alt="specitality tools apex"
               />
-              <span>poner enlace al catalogo</span>
+              <img
+                src="images/apex-anti-mar-protection.png"
+                class="w-75"
+                alt="anti mar protection apex"
+              />
+              <img
+                src="images/apex-universal-joints.png"
+                class="w-75"
+                alt="universal joints apex"
+              />
             </div>
           </div>
           <div class="container-fluid">
@@ -481,10 +548,9 @@
                 crítica del ensamblaje.
               </p>
             </div>
-            <h3 class="text-center titleDescription m-4">Nombre producto</h3>
             <img
               src="images/img-recoules-1.png"
-              class="imgProductRecoules1 mt-4"
+              class="imgProductRecoules1 mt-4 w-75"
               alt="producto recoules"
             />
           </div>
@@ -613,7 +679,7 @@
                 <p><i class="fas fa-home me-3"></i> Argentina, Córdoba</p>
                 <p>
                   <i class="fas fa-envelope me-3"></i>
-                  info@example.com
+                  info@limex.com.ar ventas@limex.com.ar soporte@limex.com.ar
                 </p>
                 <p><i class="fas fa-phone me-3"></i> +5493516134240</p>
                 <p><i class="fas fa-phone me-3"></i> +5493515507039</p>
