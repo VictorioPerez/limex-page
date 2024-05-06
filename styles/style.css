@@ -1,7 +1,7 @@
 /* color naranja E35205 */
 @font-face {
   font-family: "Futura";
-  src: url("../font/FUTURA55REGULAR.TTF") format("truetype");
+  src: url("../font/FUTURA75BOLD.TTF") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -175,6 +175,8 @@ h1 {
 }
 .imgProductCleco3 {
   width: 453px;
+  max-width: 453px;
+  height: auto;
 }
 .section-products {
   margin-bottom: 50px;
@@ -235,6 +237,9 @@ h1 {
 .containerClecoText:hover .spanish-text {
   display: block;
 }
+.titleNeoTek{
+  color: #e35205;
+}
 
 /* FOOTER */
 footer {
@@ -286,7 +291,7 @@ footer {
 }
 .textNeoTek {
   padding-top: 20px;
-  padding-left: 60px;
+  padding-left: 95px;
   margin-top: 0;
   margin-bottom: 1rem;
   padding-right: 60px;
@@ -385,6 +390,17 @@ img {
 .containerListApexText>ul>li{
   font-size: 0.9rem !important;
 }
+.clecoContainerProduct{
+  width: 568px;
+  margin-left: 115px;
+}.clecoTitleH4{
+  width: 568px;
+  margin-left: 115px;
+}
+.containerClecoDescription{
+  margin-left: 60px;
+}
+
 /* Responsive */
 @media (max-width: 576px) {
   .navbar-nav {
