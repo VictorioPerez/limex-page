@@ -6,13 +6,13 @@
   font-weight: normal;
 }
 @font-face {
-  font-family: 'Italics';
+  font-family: "Italics";
   src: url("../font/texgyreadventor-regular.otf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
-p{
-  font-family: "Italics",sans-serif;
+p {
+  font-family: "Italics", sans-serif;
 }
 .navbar {
   background-color: rgba(255, 255, 255, 0.9);
@@ -73,90 +73,22 @@ li > a:hover::before {
 }
 
 /* Productos */
-.titulo1::after {
-  content: "";
-  position: absolute;
-  width: 26.125rem;
-  height: 2px;
-  background-color: #e35205;
-  top: 4.6em;
-  left: 0px;
-}
-
-.titulo1::before {
-  content: "";
-  position: absolute;
-  width: 26.125rem;
-  height: 2px;
-  background-color: #e35205;
-  top: 4.6em;
-  right: 0px;
-}
-
-.titulo2::after {
-  content: "";
-  position: absolute;
-  width: 26.125rem;
-  height: 2px;
-  background-color: #e35205;
-  top: 3.6em;
-  left: -12px;
-}
-
-.titulo2::before {
-  content: "";
-  position: absolute;
-  width: 26.125rem;
-  height: 2px;
-  background-color: #e35205;
-  top: 3.6em;
-  right: -12px;
-}
-
-.titulo3::after {
-  content: "";
-  position: absolute;
-  width: 24.125rem;
-  height: 2px;
-  background-color: #e35205;
-  top: 3.6em;
-  left: -10px;
-}
-.titulo3::before {
-  content: "";
-  position: absolute;
-  width: 24.125rem;
-  height: 2px;
-  background-color: #e35205;
-  top: 3.6em;
-  right: -10px;
-}
-.titulo4::after {
-  content: "";
-  position: absolute;
-  width: 27.125rem;
-  height: 2px;
-  background-color: #e35205;
-  top: 4.6em;
-  left: 2px;
-}
-.titulo4::before {
-  content: "";
-  position: absolute;
-  width: 27.125rem;
-  height: 2px;
-  background-color: #e35205;
-  top: 4.6em;
-  right: 2px;
-}
 
 h1 {
   text-align: center;
+}
+.borderLine {
+  margin-top: 40px;
+  width: 1200px; 
+  border: 1px solid #e35205;
 }
 .logo-container {
   display: flex;
   justify-content: center;
   position: relative;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  width: 1262px;
 }
 .logo {
   width: 250px;
@@ -237,7 +169,7 @@ h1 {
 .containerClecoText:hover .spanish-text {
   display: block;
 }
-.titleNeoTek{
+.titleNeoTek {
   color: #e35205;
 }
 
@@ -247,39 +179,6 @@ footer {
   color: white;
   margin-top: 30px;
   padding: 20px;
-}
-
-/* ------------------------- */
-.item {
-  position: relative;
-  height: 19rem;
-  background-color: lightGrey;
-  overflow-y: hidden;
-  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.1);
-
-  h3 {
-    margin: 0;
-    display: block;
-    background-color: #fff;
-    color: black;
-    padding: 1rem;
-  }
-
-  .displayer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-
-    &:hover,
-    &:focus {
-      ~ .item__overlay {
-        transform: translate3d(0, 0, 0);
-      }
-    }
-  }
 }
 .containerApex {
   margin-left: 130px;
@@ -308,40 +207,6 @@ img {
   object-fit: cover;
 }
 
-.item__overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 50%; /* Cambiado a 50% */
-  position: absolute;
-  width: 100%;
-  top: 50%; /* Cambiado a 50% */
-  transform: translateY(
-    -50%
-  ); /* Alinea el centro del overlay con el centro de la imagen */
-  transition: transform 300ms;
-  background-color: lighten(turquoise, 15%);
-  transform: translate3d(0, calc(100% - 3.5rem), 0);
-}
-.item:hover .item__overlay, /* Cambiado para aplicar a la clase item al hacer hover */
-.item:focus .item__overlay {
-  transform: translate3d(
-    0,
-    50%,
-    0
-  ); /* Cambiado para que el overlay se desplace hacia arriba el 50% */
-}
-
-.item__body {
-  flex-grow: 1;
-  padding: 1rem;
-  background-color: #fff;
-  color: #000;
-
-  p {
-    margin: 0;
-  }
-}
 .imgDaytonApex {
   width: 75%;
 }
@@ -384,20 +249,21 @@ img {
   height: 70%;
   width: auto;
 }
-.columnApexText{
+.columnApexText {
   width: 480px !important;
 }
-.containerListApexText>ul>li{
+.containerListApexText > ul > li {
   font-size: 0.9rem !important;
 }
-.clecoContainerProduct{
-  width: 568px;
-  margin-left: 115px;
-}.clecoTitleH4{
+.clecoContainerProduct {
   width: 568px;
   margin-left: 115px;
 }
-.containerClecoDescription{
+.clecoTitleH4 {
+  width: 568px;
+  margin-left: 115px;
+}
+.containerClecoDescription {
   margin-left: 60px;
 }
 
