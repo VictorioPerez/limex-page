@@ -269,6 +269,17 @@ img {
 
 /* Responsive */
 @media (max-width: 576px) {
+  .clecoContainerProduct {
+    width: 360px;
+    margin-left: 25px;
+}
+  .iframeYT{
+    width: 360px;
+    height: 215px;
+  }
+  .logo-container{
+    width: 350px;
+  }
   .navbar-nav {
     margin-left: 0px;
   }
@@ -438,6 +449,7 @@ img {
     padding: 10px;
   }
   .imgDaytonApex {
+    margin-top: 75px;
     width: 355px;
     height: auto;
   }
