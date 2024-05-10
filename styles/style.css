@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: "Italics";
-  src: url("../font/texgyreadventor-regular.otf") format("truetype");
+  src: url("../font/texgyreadventor-bold.otf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -35,12 +35,23 @@ h2 {
   letter-spacing: 0.5px;
   font-size: medium;
 }
-h2::first-letter,
-h3::first-letter,
-h1::first-letter {
-  color: #e35205;
+h5 {
+  color: #e35205 !important;
+  padding-right: 800px;
+  padding-top: 30px;
 }
-
+h5:nth-child(3) {
+  padding-right: 835px;
+}
+.titleH53 {
+  padding-right: 675px;
+}
+.titleH54 {
+  padding-right: 745px;
+}
+.titleH55 {
+  padding-right: 565px;
+}
 .navbarContainer {
   padding-left: 300px;
 }
@@ -79,8 +90,8 @@ h1 {
 }
 .borderLine {
   margin-top: 40px;
-  width: 1200px; 
-  border: 1px solid #e35205;
+  width: 1200px;
+  border: 1px solid black;
 }
 .logo-container {
   display: flex;
@@ -96,6 +107,7 @@ h1 {
   height: 138px;
 }
 .descriptionProductCleco {
+  color: #000 !important;
   padding-left: 115px;
   padding-right: 50px;
 }
@@ -254,6 +266,10 @@ img {
 }
 .containerListApexText > ul > li {
   font-size: 0.9rem !important;
+  width: 360px;
+}
+.containerListApexText {
+  padding-left: 85px;
 }
 .clecoContainerProduct {
   width: 568px;
@@ -272,12 +288,12 @@ img {
   .clecoContainerProduct {
     width: 360px;
     margin-left: 25px;
-}
-  .iframeYT{
+  }
+  .iframeYT {
     width: 360px;
     height: 215px;
   }
-  .logo-container{
+  .logo-container {
     width: 350px;
   }
   .navbar-nav {
@@ -315,59 +331,6 @@ img {
     background-color: #fff;
     color: black;
     padding: 1rem;
-  }
-
-  .item__overlay {
-    height: 50%; /* Ajusta la altura al 50% en dispositivos móviles */
-    top: 50%; /* Alinea el overlay en el centro verticalmente en dispositivos móviles */
-    transform: translateY(
-      -50%
-    ); /* Alinea el overlay en el centro verticalmente en dispositivos móviles */
-    transition: transform 300ms; /* Asegura que la transición se aplique correctamente */
-    background-color: lighten(turquoise, 15%);
-    transform: translate3d(
-      0,
-      calc(100% - 3.5rem),
-      0
-    ); /* Ajusta la transformación inicial */
-  }
-
-  .item:hover .item__overlay,
-  .item:focus .item__overlay {
-    transform: translate3d(0, 0, 0); /* Ajusta la transformación */
-  }
-
-  .message {
-    display: none;
-  }
-
-  .card {
-    position: relative; /* Establece la posición relativa para los elementos absolutos dentro */
-  }
-
-  .card > span {
-    display: none; /* Oculta el span inicialmente en dispositivos móviles */
-    position: absolute;
-    top: 15px;
-    left: 0;
-    width: 100%; /* Ocupa todo el ancho de su contenedor */
-    padding: 10px;
-    background: none;
-    color: #fff;
-    text-align: center;
-    opacity: 0; /* Inicialmente transparente para efecto de transición */
-    transition: opacity 0.3s ease; /* Transición suave de opacidad */
-  }
-
-  .card:hover > span {
-    opacity: 1; /* Hace visible el span al hacer hover en la tarjeta */
-    display: block;
-  }
-  .overlay {
-    background: none;
-  }
-  .card:hover img {
-    filter: brightness(50%);
   }
 
   .descriptionProductCleco {
@@ -480,5 +443,18 @@ img {
   }
   .titulo4::before {
     display: none;
+  }
+  h5 {
+    color: #e35205 !important;
+    padding: 0px;
+  }
+  .titleH53 {
+    padding: 0px;
+  }
+  .titleH54 {
+    padding: 0px;
+  }
+  .titleH55 {
+    padding: 0px;
   }
 }
