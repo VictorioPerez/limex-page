@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: "Italics";
-  src: url("../font/texgyreadventor-bold.otf") format("truetype");
+  src: url("../font/texgyreadventor-regular.otf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -95,16 +95,17 @@ h1 {
 }
 .logo-container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   position: relative;
   padding-top: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   width: 1262px;
 }
 .logo {
   width: 250px;
   max-width: 100%;
   height: 138px;
+  margin-left: 155px;
 }
 .descriptionProductCleco {
   color: #000 !important;
@@ -127,6 +128,9 @@ h1 {
 }
 .imgProductCleco7 {
   margin-top: 75px;
+  position: relative;
+  right: 55px;
+  bottom: 30px;
 }
 
 .containerInfoProduct8 {
@@ -145,8 +149,11 @@ h1 {
   width: 600px;
 }
 .imgProductCleco6 {
-  width: 75%;
+  width: 70%;
+  position: relative;
+  left: 100px;
 }
+
 .imgApexProduct1 {
   width: 75%;
 }
@@ -155,14 +162,21 @@ h1 {
 }
 .imgProductRecoules1 {
   width: 75%;
+  height: auto;
 }
 /* Estilos para el texto en inglés */
 .english-text {
   display: block;
+  position: relative;
+  bottom: 50px;
+  left: 45px;
 }
 /* Estilos para el texto en español (inicialmente oculto) */
 .spanish-text {
   display: none;
+  position: relative;
+  bottom: 50px;
+  left: 45px;
 }
 .text-container {
   margin-left: 130px;
@@ -175,6 +189,9 @@ h1 {
 .text-container:hover .spanish-text {
   display: block;
 }
+.containerClecoText {
+  height: 180px;
+}
 .containerClecoText:hover .english-text {
   display: none;
 }
@@ -183,8 +200,50 @@ h1 {
 }
 .titleNeoTek {
   color: #e35205;
+  width: 243px;
+  padding-left: 0px;
+  margin-left: 100px;
 }
-
+.clecoColumnProduct3 {
+  width: 400px !important;
+}
+.productApex5 {
+  padding-left: 20px;
+}
+.apexSocketsWrenches {
+  width: 1200px;
+}
+.textApexDescription {
+  margin-top: 10px;
+  margin-right: 620px;
+}
+.textApexDescription1 {
+  margin-top: 10px;
+  margin-right: 145px;
+  width: 750px;
+}
+.textApexDescription2 {
+  margin-top: 10px;
+  margin-right: 270px;
+  width: 748px;
+  margin-right: 200px;
+}
+.textApexDescription3 {
+  margin-top: 10px;
+  margin-right: 415px;
+}
+.textApexDescription4 {
+  margin-top: 10px;
+  margin-right: 215px;
+}
+.textApexDescription5 {
+  margin-top: 10px;
+  margin-right: 190px;
+}
+.textApexDescription6 {
+  margin-top: 10px;
+  margin-right: 145px;
+}
 /* FOOTER */
 footer {
   background-color: #e35205;
@@ -199,9 +258,11 @@ footer {
 .recoulesLogo {
   width: 350px;
   height: auto;
+  margin-left: 155px;
+  margin-bottom: 50px;
 }
 .textNeoTek {
-  padding-top: 20px;
+  padding-top: 5px;
   padding-left: 95px;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -221,6 +282,7 @@ img {
 
 .imgDaytonApex {
   width: 75%;
+  margin-bottom: 30px;
 }
 .blur img {
   transition: filter 0.3s ease;
@@ -282,7 +344,26 @@ img {
 .containerClecoDescription {
   margin-left: 60px;
 }
-
+.neotekDescription {
+  width: 450px !important;
+}
+.containerProductCleco6 {
+  width: 550px;
+}
+.titleApex {
+  margin-top: 35px;
+  margin-left: 0px;
+  left: 29px;
+  font-size: 22px;
+  padding-right: 70px;
+}
+.apexText {
+  left: 30px;
+}
+.containerRecoules {
+  height: 115px;
+  margin-right: 190px;
+}
 /* Responsive */
 @media (max-width: 576px) {
   .clecoContainerProduct {
@@ -353,7 +434,7 @@ img {
     width: 100px;
   }
   .imgProductCleco6 {
-    width: 100%;
+    width: 75%;
   }
   .imgProductCleco8 {
     width: 364px;
@@ -389,6 +470,7 @@ img {
   }
   .imgProductRecoules1 {
     width: 100%;
+    height: auto !important;
   }
   .titleDescriptionBNP {
     margin-top: 150px;
