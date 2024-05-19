@@ -103,25 +103,37 @@ h1 {
 }
 .logo {
   width: 250px;
-  max-width: 100%;
   height: 138px;
   margin-left: 155px;
 }
 .descriptionProductCleco {
   color: #000 !important;
-  padding-left: 115px;
+  padding-left: 110px;
   padding-right: 50px;
+  position: relative;
+  bottom: 60px;
+  left: 0px;
+  line-height: 25px;
+}
+/* Estilos para el texto en inglés */
+.english-text1 {
+  display: block;
+}
+/* Estilos para el texto en español (inicialmente oculto) */
+.spanish-text1 {
+  display: none;
 }
 .highlight {
   color: #e35205;
 }
 .imgClecoProduct {
-  width: 465px;
+  width: 600px;
 }
 .imgProductCleco3 {
-  width: 453px;
-  max-width: 453px;
+  width: 509px;
   height: auto;
+  padding-top: 39px;
+  margin-left: 210px;
 }
 .section-products {
   margin-bottom: 50px;
@@ -129,8 +141,9 @@ h1 {
 .imgProductCleco7 {
   margin-top: 75px;
   position: relative;
-  right: 55px;
-  bottom: 30px;
+  right: 116px;
+  width: 670px;
+  height: auto;
 }
 
 .containerInfoProduct8 {
@@ -142,8 +155,9 @@ h1 {
   width: 210px;
 }
 .imgAtornilladorGrande {
-  max-width: 900px;
-  width: 900px;
+  max-width: 1100px;
+  width: 1100px;
+  height: auto;
 }
 .infoApexProducts {
   width: 600px;
@@ -151,7 +165,8 @@ h1 {
 .imgProductCleco6 {
   width: 70%;
   position: relative;
-  left: 100px;
+  left: 10px;
+  padding-left: 53px;
 }
 
 .imgApexProduct1 {
@@ -161,7 +176,7 @@ h1 {
   width: 75%;
 }
 .imgProductRecoules1 {
-  width: 75%;
+  width: 82%;
   height: auto;
 }
 /* Estilos para el texto en inglés */
@@ -198,6 +213,12 @@ h1 {
 .containerClecoText:hover .spanish-text {
   display: block;
 }
+.containerClecoText:hover .english-text1 {
+  display: none;
+}
+.containerClecoText:hover .spanish-text1 {
+  display: block;
+}
 .titleNeoTek {
   color: #e35205;
   width: 243px;
@@ -209,40 +230,69 @@ h1 {
 }
 .productApex5 {
   padding-left: 20px;
+  margin-left: 58px;
+  width: 555px;
 }
 .apexSocketsWrenches {
   width: 1200px;
 }
 .textApexDescription {
   margin-top: 10px;
-  margin-right: 620px;
+  margin-right: 740px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
 }
 .textApexDescription1 {
   margin-top: 10px;
   margin-right: 145px;
   width: 750px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
 }
 .textApexDescription2 {
   margin-top: 10px;
   margin-right: 270px;
   width: 748px;
   margin-right: 200px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
 }
 .textApexDescription3 {
   margin-top: 10px;
-  margin-right: 415px;
+  margin-right: 552px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
 }
 .textApexDescription4 {
   margin-top: 10px;
   margin-right: 215px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
 }
 .textApexDescription5 {
   margin-top: 10px;
-  margin-right: 190px;
+  margin-right: 415px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
 }
 .textApexDescription6 {
   margin-top: 10px;
-  margin-right: 145px;
+  margin-right: 363px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
+}
+.textApexDescription7 {
+  margin-top: 10px;
+  margin-right: 376px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
+}
+.textApexDescription8 {
+  padding-right: 700px;
+  padding-left: 160px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
+}
+.textApexDescription9 {
+  margin-top: 10px;
+  margin-right: 435px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
+}
+.containerBitHolders {
+  position: relative;
+  top: 75px;
+  right: 20px;
 }
 /* FOOTER */
 footer {
@@ -262,9 +312,10 @@ footer {
   margin-bottom: 50px;
 }
 .textNeoTek {
-  padding-top: 5px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  padding-top: 20px;
   padding-left: 95px;
-  margin-top: 0;
   margin-bottom: 1rem;
   padding-right: 60px;
 }
@@ -327,7 +378,7 @@ img {
   width: 480px !important;
 }
 .containerListApexText > ul > li {
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
   width: 360px;
 }
 .containerListApexText {
@@ -335,20 +386,23 @@ img {
 }
 .clecoContainerProduct {
   width: 568px;
-  margin-left: 115px;
+  margin-left: 55px;
 }
 .clecoTitleH4 {
   width: 568px;
-  margin-left: 115px;
+  margin-left: 99px;
+  position: relative;
+  top: 38px;
+  right: 38px;
 }
 .containerClecoDescription {
-  margin-left: 60px;
+  margin-left: 71px;
 }
 .neotekDescription {
   width: 450px !important;
 }
 .containerProductCleco6 {
-  width: 550px;
+  width: 695px;
 }
 .titleApex {
   margin-top: 35px;
@@ -359,10 +413,60 @@ img {
 }
 .apexText {
   left: 30px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
+  padding-right: 50px;
 }
 .containerRecoules {
   height: 115px;
-  margin-right: 190px;
+  margin-right: 290px;
+}
+.containerRecoulesSpanish{
+  margin-left: 130px;
+}
+.textTrustedQuality {
+  padding-left: 24px;
+  margin-bottom: 0px;
+}
+.textKnowDurability {
+  margin-bottom: 0px;
+}
+.sizetorqueImage {
+  width: 515px;
+  height: auto;
+  margin-left: 99px;
+}
+.imgProductCleco5 {
+  width: 552px;
+  height: auto;
+}
+.imgProductCleco4 {
+  width: 480px;
+  height: auto;
+  margin-left: 115px;
+}
+.titleDescription1 {
+  color: #000 !important;
+  padding-left: 77px;
+}
+.extra-space {
+  margin-bottom: 7px; /* Ajusta este valor según sea necesario */
+}
+.liApex {
+  font-family: "Arial Narrow", Arial, sans-serif !important;
+}
+.imgUniversalJoints {
+  margin-right: 195px;
+  width: 60%;
+}
+.recoulesText{
+  font-family: "Arial Narrow", Arial, sans-serif !important;
+}
+.fontType{
+  font-family: "Arial Narrow", Arial, sans-serif !important;
+}
+.imgProductBNP{
+  width: 74%;
+  height: auto;
 }
 /* Responsive */
 @media (max-width: 576px) {
@@ -420,12 +524,11 @@ img {
     padding-right: 5px;
   }
   .imgClecoProduct {
-    width: 340px;
+    width: 475px;
     position: relative;
     right: 38px;
   }
   .imgProductCleco3 {
-    width: 260px;
   }
   .imgAtornilladorGrande {
     width: 300px;
