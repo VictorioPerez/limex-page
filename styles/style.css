@@ -641,11 +641,11 @@ img {
     margin-bottom: 30px;
   }
   .titleApex {
-    width: 360px !important;
+    width: 300px !important;
     left: 0px;
     padding-right: 0px;
     font-size: 10px !important;
-  }
+}
   .containerFrame{
     padding: 0px;
   }
