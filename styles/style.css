@@ -478,6 +478,9 @@ img {
 .columnDaytonApex {
   flex-direction: column;
 }
+.screwDriver{
+ padding-top: 24px;   
+}
 /* Responsive */
 @media (max-width: 576px) {
   .logo {
@@ -642,8 +645,8 @@ img {
     margin-left: 0px;
   }
   .containerTitleApex{
-    margin-right: 25px !important;
-    margin-left: 25px !important;
+    margin-right: 45px !important;
+    margin-left: 45px !important;
   }
   .containerListApexText > ul > li {
     font-size: 6px !important;
@@ -659,7 +662,11 @@ img {
     margin-right: 320px !important;
     height: 23px;
     width: 201px;
-    margin-top: 10px;
+    padding-left: 8px;
+    margin-top: 15px;
+  }
+  .screwDriver{
+    padding-top: 10px;
   }
   .productApex5 {
     padding-left: 26px;
