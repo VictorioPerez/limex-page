@@ -281,7 +281,7 @@ h1 {
 }
 .textApexDescription8 {
   padding-right: 700px;
-  padding-left: 160px;
+  padding-left: 180px;
   font-family: "Arial Narrow", Arial, sans-serif !important;
 }
 .textApexDescription9 {
@@ -420,7 +420,7 @@ img {
   height: 115px;
   margin-right: 290px;
 }
-.containerRecoulesSpanish{
+.containerRecoulesSpanish {
   margin-left: 130px;
 }
 .textTrustedQuality {
@@ -458,15 +458,147 @@ img {
   margin-right: 195px;
   width: 60%;
 }
-.recoulesText{
+.recoulesText {
   font-family: "Arial Narrow", Arial, sans-serif !important;
 }
-.fontType{
+.fontType {
   font-family: "Arial Narrow", Arial, sans-serif !important;
 }
-.imgProductBNP{
+.imgProductBNP {
   width: 74%;
   height: auto;
 }
+.husillosText {
+  margin: 1.5rem;
+}
+.titleDescription {
+  margin-top: 24px !important;
+  margin-bottom: 48px;
+}
 /* Responsive */
-/* @media (max-width: 576px) {} */
+@media (max-width: 576px) {
+  .logo {
+    margin-left: 0px;
+    width: 165px;
+    height: auto;
+  }
+  .clecoTitleH4 {
+    width: 240px;
+    margin-left: 0px;
+    margin-bottom: 24px;
+  }
+  .textKnowDurability,
+  .textTrustedQuality {
+    font-size: 10px;
+  }
+  .husillosText {
+    margin: 0px;
+    font-size: 12px;
+  }
+  .logo-container {
+    width: 270px;
+  }
+  .clecoContainerProduct {
+    margin: 0px;
+    width: auto;
+  }
+  .imgClecoProduct {
+    width: 195px;
+    height: auto;
+  }
+  .imgProductCleco3 {
+    width: 187px;
+    height: auto;
+    padding-top: 0px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 7px;
+  }
+  .containerClecoText {
+    height: 24px;
+  }
+  .descriptionProductCleco {
+    padding-left: 0px;
+    font-size: 9px;
+    bottom: 91px;
+    width: auto;
+    line-height: 15px;
+  }
+  .textClecoSpanish {
+    padding-right: 78px;
+  }
+  .extra-space {
+    margin-bottom: 2px;
+  }
+  .containerClecoDescription {
+    margin-left: 0px !important;
+    padding-right: 75px !important;
+    padding-left: 25px !important;
+    position: relative;
+    bottom: 40px;
+  }
+  .sizetorqueImage {
+    margin-left: 0px;
+    width: 177px;
+  }
+  .imgProductCleco4 {
+    width: 173px;
+    margin-left: 0px;
+  }
+  .imgProductCleco5 {
+    padding-left: 63px;
+    width: 270px;
+    padding-right: 12px;
+    height: 159px;
+    margin-top: 18px;
+  }
+  .titleDescription1 {
+    padding-right: 160px !important;
+    font-size: 10px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+  }
+  .imgProductCleco6 {
+    width: 205px;
+    padding-left: 40px;
+    position: relative;
+    left: -28px;
+  }
+  .imgProductCleco7 {
+    margin-top: 0px;
+    position: relative;
+    right: -8px;
+    top: 25px;
+    width: 317px;
+    height: 220px;
+  }
+  .titleDescription {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .titleNeoTek {
+    width: 121px;
+    padding-left: 0px;
+    font-size: 14px;
+    margin-left: 25px;
+  }
+  .textNeoTek {
+    font-size: 9px;
+    padding-top: 0px;
+    padding-left: 24px;
+    padding-right: 21px;
+    margin-bottom: 1rem;
+    padding-right: 60px;
+    height: 219px;
+    width: 196px;
+  }
+  .containerResponsive .col-md-3 img,
+  .containerResponsive .col-sm-6 img {
+    width: 182px;
+    height: auto;
+  }
+  .blur .download-btn {
+    bottom: 100px;
+    left: 59%;
+  }
+}

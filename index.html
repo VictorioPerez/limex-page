@@ -92,6 +92,7 @@
           alt="productos cleco"
         />
       </section>
+      <!-- ---------------------------------- -->
       <section class="section-products container-fluid" id="section-products">
         <div class="d-flex justify-content-center align-items-center">
           <div class="borderLine"></div>
@@ -99,7 +100,7 @@
         <div class="logo-container titulo1 mt-4" id="cleco-section">
           <img src="images/cleco-logo.png" alt="logo cleco" class="logo" />
         </div>
-        <h3 class="text-center titleDescription m-4">
+        <h3 class="text-center titleDescription husillosText">
           HUSILLOS INTELIGENTES PARA ESTACIONES DE ATORNILLADO
         </h3>
         <div class="container-fluid">
@@ -113,7 +114,7 @@
                   Trusted for quality
                 </h4>
               </div>
-              <div class="row">
+              <div class="row d-none d-md-block">
                 <div class="col-md-12 col-12 d-flex flex-row">
                   <div class="clecoContainerProduct">
                     <img
@@ -132,22 +133,19 @@
                       <span class="highlight">automated</span> tightening
                       solutions.
                       <div class="extra-space"></div>
-                      <!-- Espacio después de "solutions" -->
                       Reduce your
                       <span class="highlight"
                         >footprint and total cost of ownership</span
                       >
                       via our exclusive intelligent spindle cabling technology.
                       <div class="extra-space"></div>
-                      <!-- Espacio después de "technology" -->
                       Same cell, same robot:
                       <span class="highlight">Intelli-Swap</span>, an industry
                       first.
                     </h5>
                     <h5 class="descriptionProductCleco spanish-text1">
                       Las soluciones de apriete
-                      <span class="highlight">automatizado</span>
-                      definitivas.
+                      <span class="highlight">automatizado</span> definitivas.
                       <div class="extra-space"></div>
                       Reduce tu
                       <span class="highlight"
@@ -165,7 +163,7 @@
               </div>
             </div>
             <div
-              class="col-md-6 d-flex flex-row justify-content-center mb-5 clecoColumnProduct3"
+              class="col-md-6 d-none d-md-flex flex-row justify-content-center mb-5 clecoColumnProduct3"
             >
               <div>
                 <img
@@ -175,9 +173,72 @@
                 />
               </div>
             </div>
+
+            <!-- Visible only on small devices -->
+            <div class="row d-flex d-md-none">
+              <div class="col-6 d-flex justify-content-center">
+                <div class="clecoContainerProduct">
+                  <img
+                    src="images/img-producto-cleco-copy.png"
+                    class="imgClecoProduct"
+                    alt="producto de cleco"
+                  />
+                </div>
+              </div>
+              <div class="col-6 d-flex justify-content-center">
+                <div>
+                  <img
+                    src="images/img-producto-cleco-3.png"
+                    class="imgProductCleco3"
+                    alt="producto de cleco"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Visible only on small devices -->
+            <div class="row d-flex d-md-none containerClecoText">
+              <div class="containerClecoDescription">
+                <h5 class="descriptionProductCleco english-text1">
+                  The ultimate
+                  <span class="highlight">automated</span> tightening <br />
+                  solutions.
+                  <div class="extra-space"></div>
+                  Reduce your
+                  <span class="highlight"
+                    >footprint and total cost of ownership</span
+                  >
+                  via our exclusive intelligent <br />
+                  spindle cabling technology.
+                  <div class="extra-space"></div>
+                  Same cell, same robot:
+                  <span class="highlight">Intelli-Swap</span>, <br />
+                  an industry first.
+                </h5>
+                <h5
+                  class="descriptionProductCleco spanish-text1 textClecoSpanish"
+                >
+                  Las soluciones de apriete
+                  <span class="highlight">automatizado</span> definitivas.
+                  <div class="extra-space"></div>
+                  Reduce tu
+                  <span class="highlight"
+                    >huella y coste total de propiedad</span
+                  >
+                  mediante nuestra exclusiva tecnología de cableado de husillo
+                  inteligente.
+                  <div class="extra-space"></div>
+                  Misma celda, mismo robot:
+                  <span class="highlight">Intelli-Swap</span>, una primicia en
+                  la industria.
+                </h5>
+              </div>
+            </div>
           </div>
+
           <div class="row">
-            <div class="col-md-6">
+            <!-- Contenedor para pantallas grandes -->
+            <div class="col-md-6 d-none d-md-block">
               <img
                 src="images/SIZE AND TORQUE.png"
                 class="sizetorqueImage"
@@ -189,16 +250,40 @@
                 alt="producto de cleco"
               />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d-none d-md-block">
               <img
                 src="images/img-producto-cleco-5.png"
                 class="imgProductCleco5"
                 alt="producto de cleco"
               />
             </div>
+
+            <!-- Contenedor para dispositivos móviles -->
+            <div class="row d-flex d-md-none" style="padding-left: 0px">
+              <div class="col-6 d-flex justify-content-center flex-column">
+                <img
+                  src="images/SIZE AND TORQUE.png"
+                  class="sizetorqueImage mb-2"
+                  alt="información de tamaños cleco"
+                />
+                <img
+                  src="images/img-producto-cleco-4.1.png"
+                  class="imgProductCleco4"
+                  alt="producto de cleco"
+                />
+              </div>
+              <div class="col-6 d-flex justify-content-center">
+                <img
+                  src="images/img-producto-cleco-5.png"
+                  class="imgProductCleco5"
+                  alt="producto de cleco"
+                />
+              </div>
+            </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <!-- Contenedor para pantallas grandes -->
+            <div class="col-md-6 d-none d-md-block">
               <div>
                 <h5 class="titleDescription1">CONTROLADORES</h5>
               </div>
@@ -210,8 +295,30 @@
                 />
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d-none d-md-block">
               <div>
+                <img
+                  src="images/img-producto-cleco-7.jpg"
+                  class="imgProductCleco7"
+                  alt="producto de cleco"
+                />
+              </div>
+            </div>
+
+            <!-- Contenedor para dispositivos móviles -->
+            <div class="row d-flex d-md-none">
+              <div class="col-6 d-flex flex-column align-items-center">
+                <div>
+                  <h5 class="titleDescription1">CONTROLADORES</h5>
+                </div>
+
+                <img
+                  src="images/img-producto-cleco-6.png"
+                  class="imgProductCleco6"
+                  alt="producto de cleco"
+                />
+              </div>
+              <div class="col-6 d-flex justify-content-center">
                 <img
                   src="images/img-producto-cleco-7.jpg"
                   class="imgProductCleco7"
@@ -225,26 +332,29 @@
             <div class="d-flex justify-content-center align-items-center">
               <div class="borderLine"></div>
             </div>
-            <h3 class="text-center titleDescription mt-4 mb-5">
+            <h3 class="text-center titleDescription">
               HERRAMIENTAS MANUALES INALAMBRICAS Y CON CABLE
             </h3>
-            <div
-              class="col-md-6 col-12 d-flex flex-column justify-content-center neotekDescription mt-2"
-            >
-              <h3 class="titleNeoTek">NeoTek Corded Electric Nutrunners</h3>
-              <p class="textNeoTek">
-                Optimice su línea de ensamblaje y aumente su retorno de
-                inversión con los atornilladores eléctricos con cable de Neotek.
-                Las series NeoTek 30, Neotek 50 y Neotek 70 de cabeza angular
-                fueron concebidas para ser capaces de realizar un millón de
-                ciclos sin necesidad de mantenimiento, además de cumplir y
-                mantener 2.0 Cm/Cmk at +/- 7%. El cable de las NeoTek permite un
-                cuarto de giro anti enrollamiento, y elimina una de las causas
-                típicas por las que se pelan y deterioran los cables.
-              </p>
-            </div>
-            <div class="col-md-6">
-              <div class="text-center mt-3">
+            <div class="d-flex flex-wrap">
+              <div
+                class="col-md-6 col-12 d-flex flex-column justify-content-center neotekDescription mt-2 d-none d-md-block"
+              >
+                <h3 class="titleNeoTek">NeoTek Corded Electric Nutrunners</h3>
+                <p class="textNeoTek">
+                  Optimice su línea de ensamblaje y aumente su retorno de
+                  inversión con los atornilladores eléctricos con cable de
+                  Neotek. Las series NeoTek 30, Neotek 50 y Neotek 70 de cabeza
+                  angular fueron concebidas para ser capaces de realizar un
+                  millón de ciclos sin necesidad de mantenimiento, además de
+                  cumplir y mantener 2.0 Cm/Cmk at +/- 7%. El cable de las
+                  NeoTek permite un cuarto de giro anti enrollamiento, y elimina
+                  una de las causas típicas por las que se pelan y deterioran
+                  los cables.
+                </p>
+              </div>
+              <div
+                class="col-md-6 col-12 d-flex justify-content-center align-items-center mt-3 d-none d-md-block"
+              >
                 <img
                   src="images/img-producto-cleco-8.png"
                   class="img-fluid"
@@ -252,78 +362,103 @@
                 />
               </div>
             </div>
-          </div>
 
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div
-                  class="containerResponsive d-flex flex-column justify-content-center align-items-center"
-                >
-                  <div class="row">
-                    <div class="col-md-3 col-sm-6 blur">
-                      <img
-                        src="images/cellclutch-cleco.jpg"
-                        class="imgAtornillador"
-                        alt="atornillador cellclutch de cleco"
-                      />
-                      <a
-                        href="images/PDF/CLE_CellClutch_Brochure_EN.pdf"
-                        download="CellClutch.pdf"
-                        class="download-btn"
-                      >
-                        Descargar PDF
-                      </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 blur">
-                      <img
-                        src="images/cellteck-cleco.jpg "
-                        class="imgAtornillador"
-                        alt="atornillador cellteck de cleco"
-                      />
-                      <a
-                        href="images/PDF/CellTek Flyer.pdf"
-                        download="CellTek.pdf"
-                        class="download-btn"
-                      >
-                        Descargar PDF
-                      </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 blur">
-                      <img
-                        src="images/cellcore-cleco.jpg"
-                        class="imgAtornillador"
-                        alt="atornillador cellcore de cleco"
-                      />
-                      <a
-                        href="images/PDF/Cleco-CellCore-brochure.pdf"
-                        download="CellCore.pdf"
-                        class="download-btn"
-                      >
-                        Descargar PDF
-                      </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 blur">
-                      <img
-                        src="images/cellcore-multiple-cleco.jpg"
-                        class="imgAtornillador"
-                        alt="atornillador cellcore multiplied de cleco"
-                      />
-                      <a
-                        href="images/PDF/CellCore High Torque Product Brochure EN 02-05-20.pdf"
-                        download="CellCoreMultiplied.pdf"
-                        class="download-btn"
-                      >
-                        Descargar PDF
-                      </a>
-                    </div>
+            <div class="row d-flex d-md-none">
+              <div class="col-6 d-flex justify-content-center flex-column colResponsive">
+                <h3 class="titleNeoTek">NeoTek Corded Electric Nutrunners</h3>
+                <p class="textNeoTek">
+                  Optimice su línea de ensamblaje y aumente su retorno de
+                  inversión con los atornilladores eléctricos con cable de
+                  Neotek. Las series NeoTek 30, Neotek 50 y Neotek 70 de cabeza
+                  angular fueron concebidas para ser capaces de realizar un
+                  millón de ciclos sin necesidad de mantenimiento, además de
+                  cumplir y mantener 2.0 Cm/Cmk at +/- 7%. El cable de las
+                  NeoTek permite un cuarto de giro anti enrollamiento, y elimina
+                  una de las causas típicas por las que se pelan y deterioran
+                  los cables.
+                </p>
+              </div>
+              <div class="col-6 d-flex justify-content-center colResponsive">
+                <img
+                  src="images/img-producto-cleco-8.png"
+                  class="imgProductCleco5"
+                  alt="producto de cleco"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="containerResponsive d-flex justify-content-center align-items-center">
+                <div class="row">
+                  <div class="col-md-3 col-6 blur">
+                    <img
+                      src="images/cellclutch-cleco.jpg"
+                      class="imgAtornillador"
+                      alt="atornillador cellclutch de cleco"
+                    />
+                    <a
+                      href="images/PDF/CLE_CellClutch_Brochure_EN.pdf"
+                      download="CellClutch.pdf"
+                      class="download-btn"
+                    >
+                      Descargar PDF
+                    </a>
+                  </div>
+                  <div class="col-md-3 col-6 blur">
+                    <img
+                      src="images/cellteck-cleco.jpg"
+                      class="imgAtornillador"
+                      alt="atornillador cellteck de cleco"
+                    />
+                    <a
+                      href="images/PDF/CellTek Flyer.pdf"
+                      download="CellTek.pdf"
+                      class="download-btn"
+                    >
+                      Descargar PDF
+                    </a>
+                  </div>
+                  <div class="col-md-3 col-6 blur">
+                    <img
+                      src="images/cellcore-cleco.jpg"
+                      class="imgAtornillador"
+                      alt="atornillador cellcore de cleco"
+                    />
+                    <a
+                      href="images/PDF/Cleco-CellCore-brochure.pdf"
+                      download="CellCore.pdf"
+                      class="download-btn"
+                    >
+                      Descargar PDF
+                    </a>
+                  </div>
+                  <div class="col-md-3 col-6 blur">
+                    <img
+                      src="images/cellcore-multiple-cleco.jpg"
+                      class="imgAtornillador"
+                      alt="atornillador cellcore multiplied de cleco"
+                    />
+                    <a
+                      href="images/PDF/CellCore High Torque Product Brochure EN 02-05-20.pdf"
+                      download="CellCoreMultiplied.pdf"
+                      class="download-btn"
+                    >
+                      Descargar PDF
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        
+<!-- FALTA LO DE abajo -->
 
-          <div class="row">
+        <!--         <div class="row">
             <div
               class="col-md-12 col-12 d-flex justify-content-center align-items-center"
             >
@@ -596,7 +731,6 @@
             class="col-md-12 col-12 d-flex justify-content-center align-items-center flex-column"
           >
             <div class="text-container mt-5">
-              <!-- Texto en inglés -->
               <p class="english-text fontType">
                 Dotco tools have a well deserved reputation for toughness and
                 are designed with the operator in mind. A combination of
@@ -610,7 +744,6 @@
                 it is a Dotco Grinder, sander, drill or a router you can count
                 getting the job done, even in the most rugged environments.
               </p>
-              <!-- Texto en español (inicialmente oculto) -->
               <p class="spanish-text fontType">
                 Las herramientas Dotco tienen una merecida reputación por su
                 resistencia y están diseñadas teniendo en cuenta al operador.
@@ -668,10 +801,13 @@
             />
           </div>
         </div>
+ -->
       </section>
-      <div class="d-flex justify-content-center align-items-center">
+
+      <!-------------------------------------------------------------------------->
+<!--       <div class="d-flex justify-content-center align-items-center">
         <div class="borderLine mb-5"></div>
-      </div>
+      </div> -->
       <section
         class="container d-flex justify-content-center align-items-center flex-column"
       >
