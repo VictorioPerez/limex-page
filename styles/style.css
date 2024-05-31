@@ -507,7 +507,7 @@ img {
     height: auto;
   }
   .imgProductCleco3 {
-    width: 187px;
+    width: 160px;
     height: auto;
     padding-top: 0px;
     margin-left: 50px;
@@ -535,7 +535,7 @@ img {
     padding-right: 75px !important;
     padding-left: 25px !important;
     position: relative;
-    bottom: 40px;
+    bottom: 3px;
   }
   .sizetorqueImage {
     margin-left: 0px;
@@ -547,11 +547,11 @@ img {
   }
   .imgProductCleco5 {
     padding-left: 63px;
-    width: 270px;
-    padding-right: 12px;
-    height: 159px;
-    margin-top: 18px;
-  }
+    width: 260px;
+    padding-right: 8px;
+    height: 192px;
+    margin-top: 21px;
+}
   .titleDescription1 {
     padding-right: 160px !important;
     font-size: 10px;
@@ -567,10 +567,10 @@ img {
   .imgProductCleco7 {
     margin-top: 0px;
     position: relative;
-    right: -8px;
+    left: 7px;
     top: 25px;
-    width: 317px;
-    height: 220px;
+    width: 206px;
+    height: 196px;
   }
   .titleDescription {
     font-size: 12px;
@@ -589,7 +589,7 @@ img {
     padding-right: 21px;
     margin-bottom: 1rem;
     padding-right: 60px;
-    height: 219px;
+    height: 230px;
     width: 196px;
   }
   .containerResponsive .col-md-3 img,
