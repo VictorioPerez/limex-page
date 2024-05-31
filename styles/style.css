@@ -646,6 +646,9 @@ img {
     padding-right: 0px;
     font-size: 10px !important;
   }
+  .containerFrame{
+    padding: 0px;
+  }
   .apexText {
     left: 1px;
     font-size: 9px;
