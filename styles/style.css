@@ -505,6 +505,10 @@ img {
 .apexTornillosProduct {
   width: 75%;
   height: auto;
+  padding-top: 24px;
+}
+.h5ScrewdriverBits{
+  padding-top: 48px;
 }
 /* Responsive */
 @media (max-width: 576px) {
@@ -686,7 +690,7 @@ img {
     margin-right: 0px;
   }
   .columnApexText {
-    margin-top: 145px !important;
+    margin-top: 125px !important;
   }
   .containerListApexText {
     margin-right: 320px !important;
@@ -706,12 +710,14 @@ img {
     bottom: 85px;
   }
   h5 {
-    padding-right: 265px;
+    padding-right: 257px;
     font-size: 13px !important;
   }
   .textApexDescription {
-    margin-right: 243px;
+    margin-right: 237px;
     font-size: 9px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .textApexDescription3 {
     font-size: 8px;
@@ -723,6 +729,7 @@ img {
   .apexTornillosProduct {
     width: 100%;
     height: auto;
+    padding-top: 0px;
   }
   .h5BitHolders {
     margin-right: 0px;
@@ -736,7 +743,7 @@ img {
   .containerBitHolders {
     position: relative;
     top: 0px;
-    right: 78px;
+    right: 58px;
   }
   .textApexDescription5 {
     margin-top: 0px;
@@ -749,5 +756,8 @@ img {
   .apexSocketsWrenches{
     width: 120%;
     height: auto;
+  }
+  .h5ScrewdriverBits{
+    padding-top: 0px !important;
   }
 }
