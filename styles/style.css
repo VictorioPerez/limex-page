@@ -510,7 +510,7 @@ img {
 .h5ScrewdriverBits {
   padding-top: 48px;
 }
-.apexSpecialtyTools {
+.apexSpecialtyTools,.apexAntiMar {
   width: 75%;
   height: auto;
 }
@@ -804,5 +804,9 @@ img {
     padding-left: 0px;
     margin-left: 24px;
     margin-bottom: 0px;
+  }
+  .apexAntiMar{
+    width: 375px;
+    height: auto;
   }
 }
