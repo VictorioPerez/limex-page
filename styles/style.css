@@ -510,7 +510,7 @@ img {
 .h5ScrewdriverBits {
   padding-top: 48px;
 }
-.apexSpecialtyTools{
+.apexSpecialtyTools {
   width: 75%;
   height: auto;
 }
@@ -743,7 +743,7 @@ img {
     position: relative;
     top: 0px;
     right: 58px;
-}
+  }
   .textApexDescription5 {
     margin-top: 0px;
     margin-right: 2px;
@@ -768,7 +768,7 @@ img {
   .titleH54 {
     padding-right: 205px;
     font-size: 13px !important;
-}
+  }
   .textApexDescription6 {
     margin-right: 23px;
     font-size: 7px;
@@ -787,7 +787,22 @@ img {
     font-size: 7px;
     margin-bottom: 0px;
   }
-  .apexSpecialtyTools{
+  .apexSpecialtyTools {
     width: 360px;
+  }
+  .titleH55 {
+    padding-right: 85px;
+    font-size: 13px !important;
+ }
+  .textApexDescription8{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .textApexDescription8{
+    font-size: 6px;
+    padding-right: 201px;
+    padding-left: 0px;
+    margin-left: 24px;
+    margin-bottom: 0px;
   }
 }
