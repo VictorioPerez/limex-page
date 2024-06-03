@@ -705,10 +705,7 @@ img {
     position: relative;
     bottom: 75px;
   }
-  h5 {
-    padding-right: 241px;
-    font-size: 13px !important;
-  }
+
   .textApexDescription {
     margin-right: 184px;
     font-size: 9px;
@@ -732,6 +729,8 @@ img {
     margin-left: 0px !important;
     padding-right: 0px !important;
     width: 200px !important;
+    font-size: 13px !important;
+
   }
   .textApexDescription3 {
     margin-right: 0px;
@@ -748,10 +747,16 @@ img {
   }
   .titleH53 {
     padding-right: 170px;
+    font-size: 13px !important;
+
   }
 
   .h5ScrewdriverBits {
     padding-top: 0px !important;
+    padding-right: 241px;
+    font-size: 13px !important;
+    font-size: 13px !important;
+
   }
   .apexSocketsWrenchesResponsive {
     width: 365px;
