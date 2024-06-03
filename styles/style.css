@@ -753,8 +753,8 @@ img {
   .h5ScrewdriverBits {
     padding-top: 0px !important;
   }
-  .apexSocketsWrenches {
-    width: 390px;
+  .apexSocketsWrenchesResponsive {
+    width: 370px;
     height: auto;
   }
 }
