@@ -798,15 +798,15 @@ img {
     padding-right: 0px;
     padding-left: 0px;
   }
-  .textApexDescription8{
+  .textApexDescription8 {
     font-size: 6px;
-    padding-right: 165px;
+    padding-right: 150px;
     padding-left: 0px;
-    margin-left: 24px;
+    margin-left: 15px;
     margin-bottom: 0px;
-  }
+}
   .apexAntiMar{
-    width: 375px;
+    width: 365px;
     height: auto;
   }
 }
