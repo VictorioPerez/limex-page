@@ -810,12 +810,16 @@ img {
     height: auto;
   }
   .titleUniversalJoints{
-    padding-right: 220px;
+    padding-right: 230px;
     font-size: 13px !important;
   }
   .textApexDescription9{
     margin-top: 0px;
-    margin-right: 20px;
+    margin-right: 55px;
     font-size: 7px;
+  }
+  .imgUniversalJoints{
+    width: 100%;
+    margin-right: 0px;
   }
 }
