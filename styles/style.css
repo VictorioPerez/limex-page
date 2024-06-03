@@ -767,4 +767,8 @@ img {
     margin-right: 2px;
     font-size: 8px;
   }
+  .apexExtensionsResponsive{
+    width: 380px;
+    height: auto;
+  }
 }
