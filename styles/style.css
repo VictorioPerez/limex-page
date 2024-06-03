@@ -646,7 +646,7 @@ img {
     width: 365px;
   }
   .iframeYT {
-    width: 365px;
+    width: 360px;
     height: 187px;
   }
   .imgDaytonApex {
@@ -730,7 +730,6 @@ img {
     padding-right: 0px !important;
     width: 200px !important;
     font-size: 13px !important;
-
   }
   .textApexDescription3 {
     margin-right: 0px;
@@ -755,10 +754,17 @@ img {
     padding-right: 241px;
     font-size: 13px !important;
     font-size: 13px !important;
-
   }
   .apexSocketsWrenchesResponsive {
     width: 365px;
     height: auto;
+  }
+  .titleH54 {
+    padding-right: 152px;
+    font-size: 13px !important;
+  }
+  .textApexDescription6 {
+    margin-right: 2px;
+    font-size: 8px;
   }
 }
