@@ -510,6 +510,10 @@ img {
 .h5ScrewdriverBits {
   padding-top: 48px;
 }
+.apexSpecialtyTools{
+  width: 75%;
+  height: auto;
+}
 /* Responsive */
 @media (max-width: 576px) {
   .logo {
@@ -778,5 +782,8 @@ img {
   .textApexDescription7 {
     margin-right: 14px;
     font-size: 7px;
+  }
+  .apexSpecialtyTools{
+    width: 390px;
   }
 }
