@@ -764,11 +764,11 @@ img {
     height: auto;
   }
   .titleH54 {
-    padding-right: 182px;
+    padding-right: 200px;
     font-size: 13px !important;
-  }
+}
   .textApexDescription6 {
-    margin-right: 6px;
+    margin-right: 16px;
     font-size: 7px;
   }
   .apexExtensionsResponsive {
@@ -784,6 +784,6 @@ img {
     font-size: 7px;
   }
   .apexSpecialtyTools{
-    width: 370px;
+    width: 367px;
   }
 }
