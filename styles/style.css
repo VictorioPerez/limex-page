@@ -507,7 +507,7 @@ img {
   height: auto;
   padding-top: 24px;
 }
-.h5ScrewdriverBits{
+.h5ScrewdriverBits {
   padding-top: 48px;
 }
 /* Responsive */
@@ -667,11 +667,7 @@ img {
     font-size: 9px;
     padding-right: 0px;
   }
-/*   .productApex5 {
-    padding-left: 20px;
-    margin-left: 58px;
-    width: 210px;
-  } */
+
   .containerClecoText {
     padding-left: 0px;
     margin-left: 0px;
@@ -714,7 +710,7 @@ img {
     font-size: 13px !important;
   }
   .textApexDescription {
-    margin-right: 221px;
+    margin-right: 184px;
     font-size: 9px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -750,14 +746,15 @@ img {
     margin-right: 87px;
     font-size: 8px;
   }
-  .titleH53{
+  .titleH53 {
     padding-right: 180px;
   }
-  .apexSocketsWrenches{
-    width: 120%;
-    height: auto;
-  }
-  .h5ScrewdriverBits{
+
+  .h5ScrewdriverBits {
     padding-top: 0px !important;
+  }
+  .apexSocketsWrenches {
+    width: 390px;
+    height: auto;
   }
 }
