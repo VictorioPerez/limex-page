@@ -767,8 +767,16 @@ img {
     margin-right: 6px;
     font-size: 7px;
   }
-  .apexExtensionsResponsive{
+  .apexExtensionsResponsive {
     width: 365px;
     height: auto;
+  }
+  .titleSpecitalityTools {
+    padding-right: 215px;
+    font-size: 13px !important;
+  }
+  .textApexDescription7 {
+    margin-right: 14px;
+    font-size: 7px;
   }
 }
