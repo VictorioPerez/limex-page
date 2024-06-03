@@ -667,11 +667,11 @@ img {
     font-size: 9px;
     padding-right: 0px;
   }
-  .productApex5 {
+/*   .productApex5 {
     padding-left: 20px;
     margin-left: 58px;
     width: 210px;
-  }
+  } */
   .containerClecoText {
     padding-left: 0px;
     margin-left: 0px;
@@ -697,7 +697,7 @@ img {
     height: 23px;
     width: 201px;
     padding-left: 8px;
-    margin-top: 63px;
+    margin-top: 43px;
   }
   .screwDriver {
     padding-top: 10px;
@@ -705,16 +705,16 @@ img {
   .productApex5 {
     padding-left: 26px;
     margin-left: 107px;
-    width: 248px;
+    width: 235px;
     position: relative;
-    bottom: 85px;
+    bottom: 75px;
   }
   h5 {
-    padding-right: 257px;
+    padding-right: 241px;
     font-size: 13px !important;
   }
   .textApexDescription {
-    margin-right: 237px;
+    margin-right: 221px;
     font-size: 9px;
     margin-top: 0px;
     margin-bottom: 0px;
