@@ -176,7 +176,7 @@ h1 {
   width: 75%;
 }
 .imgProductRecoules1 {
-  width: 82%;
+  width: 73%;
   height: auto;
 }
 /* Estilos para el texto en inglés */
@@ -861,4 +861,10 @@ img {
   .imgProductBNP{
     width: 92%;
   }
+}
+.titleRecoules{
+  left: 29px;
+}
+.recoulesText{
+  left: 29px;
 }
