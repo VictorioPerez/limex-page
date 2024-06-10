@@ -823,9 +823,9 @@ img {
     margin-right: 0px;
   }
   .containerRecoules{
-    height: auto;
-    width: 620px;
-    height: 70px;
+    height: auto !important;
+    width: 650px !important;
+    height: 70px !important;
   }
   .containerRecoulesSpanish{
     margin-left: 0px;
