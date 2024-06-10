@@ -822,4 +822,43 @@ img {
     width: 103%;
     margin-right: 0px;
   }
+  .containerRecoules{
+    height: auto;
+    width: 600px;
+    height: 70px;
+  }
+  .containerRecoulesSpanish{
+    margin-left: 0px;
+  }
+  .recoulesLogo{
+    width: 165px;
+    margin-left: 0px;
+    margin-bottom: 35px;
+  }
+  .titleRecoules{
+    left: 250px;
+    font-size: 10px;
+    width: 270px;
+  }
+  .recoulesText{
+    font-size: 9px;
+    width: 355px;
+    left: 250px;
+  }
+  .imgProductRecoules1{
+    width: 95%;
+    height: auto;
+  }
+  .text-container{
+    margin: 0px;
+    width: 300px;
+    height: 75px;  
+  }
+  .dotcoText{
+    left: -14px;
+    font-size: 9px;
+  }
+  .imgProductBNP{
+    width: 92%;
+  }
 }
