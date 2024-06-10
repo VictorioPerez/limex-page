@@ -865,10 +865,17 @@ img {
   .lastBorder{
     width: 330px;
   }
+  .logoApexFinal{
+    width: 45% !important;
+  }
 }
 .titleRecoules{
   left: 29px;
 }
 .recoulesText{
   left: 29px;
+}
+.logoApexFinal{
+  width: 25%;
+  height: auto;
 }
