@@ -862,6 +862,9 @@ img {
   .imgProductBNP{
     width: 92%;
   }
+  .lastBorder{
+    width: 365px;
+  }
 }
 .titleRecoules{
   left: 29px;
