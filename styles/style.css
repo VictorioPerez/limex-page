@@ -841,8 +841,9 @@ img {
     width: 270px;
   }
   .recoulesText{
-    font-size: 9px;
+    font-size: 8px;
     width: 350px;
+    padding-right: 45px !important;
     left: 290px !important;
   }
   .imgProductRecoules1{
