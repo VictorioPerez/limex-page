@@ -868,6 +868,9 @@ img {
   .logoApexFinal{
     width: 45% !important;
   }
+  .imgProductNorbar{
+    width: 93%;
+  }
 }
 .titleRecoules{
   left: 29px;
