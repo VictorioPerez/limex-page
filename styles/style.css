@@ -869,7 +869,7 @@ img {
     width: 45% !important;
   }
   .imgProductNorbar{
-    width: 93%;
+    width: 100% !important;
   }
 }
 .titleRecoules{
