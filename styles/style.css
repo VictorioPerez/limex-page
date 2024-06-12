@@ -510,11 +510,113 @@ img {
 .h5ScrewdriverBits {
   padding-top: 48px;
 }
-.apexSpecialtyTools,.apexAntiMar {
+.apexSpecialtyTools,
+.apexAntiMar {
   width: 75%;
   height: auto;
 }
+.imgProductCleco8_1 {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
 /* Responsive */
+@media (max-width: 1920px) {
+  .clecoContainerProduct {
+    margin-left: 275px;
+  }
+  .imgProductCleco3 {
+    margin-left: 75px;
+  }
+  .clecoTitleH4 {
+    margin-left: 324px;
+  }
+  .containerClecoDescription {
+    margin-left: 292px;
+  }
+  .imgProductCleco5 {
+    width: 552px;
+    height: auto;
+    position: relative;
+    right: 72px;
+  }
+  .sizetorqueImage {
+    margin-left: 343px;
+  }
+  .imgProductCleco4 {
+    margin-left: 343px;
+  }
+  .titleDescription1 {
+    padding-left: 359px;
+  }
+  .imgProductCleco6 {
+    left: 288px;
+    padding-left: 53px;
+  }
+  .imgProductCleco7 {
+    right: 160px;
+  }
+  .imgProductCleco8_1 {
+    position: relative;
+    left: 244px;
+    width: 85%;
+  }
+  .titleNeoTek {
+    position: relative;
+    left: 305px;
+    top: 40px;
+    font-size: 35px;
+  }
+  .textNeoTek {
+    padding-right: 113px;
+    position: relative;
+    left: 310px;
+    top: 25px;
+    font-size: 21px;
+  }
+  .titleDescription {
+    font-size: 39px;
+  }
+  .logo {
+    width: 380px;
+    height: 138px;
+    margin-left: 345px;
+  }
+  .borderLine {
+    width: 1300px;
+  }
+  .containerTitleApex {
+    margin-left: 204px;
+    margin-right: 190px;
+  }
+  .imgDaytonApex {
+    height: auto;
+    width: 75%;
+    margin-bottom: 30px;
+  }
+  .apexText {
+    font-size: 23px;
+    padding-right: 85px !important;
+  }
+  .columnApexText {
+    width: 625px !important;
+    margin-top: 115px !important;
+  }
+  .productApex5 {
+    width: 870px;
+    position: relative;
+    top: 80px;
+    left: 81px;
+  }
+  .containerListApexText {
+    position: relative;
+    bottom: 80px;
+  }
+  .containerListApexText > ul > li {
+    font-size: 20px !important;
+  }
+}
+
 @media (max-width: 576px) {
   .logo {
     margin-left: 0px;
@@ -793,8 +895,8 @@ img {
   .titleH55 {
     padding-right: 85px;
     font-size: 13px !important;
- }
-  .textApexDescription8{
+  }
+  .textApexDescription8 {
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -804,85 +906,85 @@ img {
     padding-left: 5px;
     margin-left: 0px;
     margin-bottom: 0px;
-}
-  .apexAntiMar{
+  }
+  .apexAntiMar {
     width: 360px;
     height: auto;
   }
-  .titleUniversalJoints{
+  .titleUniversalJoints {
     padding-right: 230px;
     font-size: 13px !important;
   }
-  .textApexDescription9{
+  .textApexDescription9 {
     margin-top: 0px;
     margin-right: 46px;
     font-size: 7px;
   }
-  .imgUniversalJoints{
+  .imgUniversalJoints {
     width: 103%;
     margin-right: 0px;
   }
-  .containerRecoules{
+  .containerRecoules {
     height: auto !important;
     width: 600px !important;
     height: 70px !important;
   }
-  .containerRecoulesSpanish{
+  .containerRecoulesSpanish {
     margin-left: 0px;
   }
-  .recoulesLogo{
+  .recoulesLogo {
     width: 165px;
     margin-left: 0px;
     margin-bottom: 35px;
   }
-  .titleRecoules{
+  .titleRecoules {
     left: 265px !important;
     font-size: 10px;
     width: 270px;
   }
-  .recoulesText{
+  .recoulesText {
     font-size: 8px;
     width: 300px;
     padding-right: 0px !important;
     left: 265px !important;
   }
-  .imgProductRecoules1{
+  .imgProductRecoules1 {
     width: 95%;
     height: auto;
   }
-  .text-container{
+  .text-container {
     margin: 0px;
     width: 300px;
-    height: 105px;  
+    height: 105px;
   }
-  .dotcoText{
+  .dotcoText {
     left: 0px;
     font-size: 9px;
   }
-  .imgProductBNP{
+  .imgProductBNP {
     width: 92%;
   }
-  .lastBorder{
+  .lastBorder {
     width: 330px;
   }
-  .logoApexFinal{
+  .logoApexFinal {
     width: 45% !important;
   }
-  .imgProductNorbar{
+  .imgProductNorbar {
     width: 100% !important;
   }
 }
-.titleRecoules{
+.titleRecoules {
   left: 29px;
 }
-.recoulesText{
+.recoulesText {
   left: 29px;
 }
-.logoApexFinal{
+.logoApexFinal {
   width: 25%;
   height: auto;
 }
-.imgProductNorbar{
+.imgProductNorbar {
   width: 83%;
   height: auto;
 }
