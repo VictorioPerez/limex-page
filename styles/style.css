@@ -615,6 +615,41 @@ img {
   .containerListApexText > ul > li {
     font-size: 20px !important;
   }
+  .h5ScrewdriverBits {
+    position: relative;
+    right: 215px;
+    font-size: 25px;
+  }
+  .textApexDescription {
+    position: relative;
+    right: 210px;
+    font-size: 20px;
+  }
+  .h5BitHolders {
+    font-size: 24px;
+  }
+  .containerBitHolders {
+    position: relative;
+    top: 75px;
+    right: 228px;
+  }
+  .textApexDescription3 {
+    font-size: 18px;
+  }
+  .apexSocketsWrenches {
+    width: 94%;
+    height: auto;
+  }
+  .titleH53{
+    position: relative;
+    right: 200px;
+    font-size: 24px;
+  }
+  .textApexDescription5 {
+    font-size: 18px;
+    position: relative;
+    right: 192px;
+}
 }
 
 @media (max-width: 576px) {
