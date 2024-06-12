@@ -521,7 +521,7 @@ img {
   max-width: 100%;
 }
 /* Responsive */
-@media (max-width: 1920px) {
+@media (min-width: 1920px) {
   .clecoContainerProduct {
     margin-left: 275px;
   }
