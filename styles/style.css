@@ -520,6 +520,16 @@ img {
   height: auto;
   max-width: 100%;
 }
+.logoKistler{
+  width: 255px;
+  height: 95px;
+  margin-left: 170px !important ;
+}
+.kistlerInnovation{
+  width: 740px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
 /* Responsive */
 @media (min-width: 1920px) {
   .clecoContainerProduct {
@@ -586,12 +596,15 @@ img {
     width: 1300px;
   }
   .containerTitleApex {
-    margin-left: 204px;
-    margin-right: 190px;
+    margin-left: 265px;
+    margin-right: 230px;
+  }
+  .columnDaytonApex{
+    margin-bottom: 60px;
   }
   .imgDaytonApex {
     height: auto;
-    width: 75%;
+    width: 69%;
     margin-bottom: 30px;
   }
   .apexText {
@@ -610,7 +623,8 @@ img {
   }
   .containerListApexText {
     position: relative;
-    bottom: 80px;
+    bottom: 85px;
+    left: 60px;
   }
   .containerListApexText > ul > li {
     font-size: 20px !important;
@@ -640,7 +654,7 @@ img {
     width: 94%;
     height: auto;
   }
-  .titleH53{
+  .titleH53 {
     position: relative;
     right: 200px;
     font-size: 24px;
@@ -649,7 +663,122 @@ img {
     font-size: 18px;
     position: relative;
     right: 192px;
-}
+  }
+  .titleH54 {
+    position: relative;
+    right: 192px;
+    font-size: 24px;
+  }
+  .textApexDescription6 {
+    position: relative;
+    right: 176px;
+    font-size: 18px;
+  }
+  .apexSpecialtyTools {
+    width: 78%;
+    height: auto;
+  }
+  .titleSpecitalityTools {
+    position: relative;
+    font-size: 24px;
+    right: 200px;
+  }
+  .textApexDescription7 {
+    font-size: 18px;
+    position: relative;
+    right: 178px;
+  }
+  .titleH55 {
+    position: relative;
+    font-size: 24px;
+    right: 160px;
+  }
+  .textApexDescription8 {
+    font-size: 18px;
+    position: relative;
+    left: 12px;
+    width: 1700px;
+  }
+  .titleUniversalJoints {
+    font-size: 24px;
+    position: relative;
+    right: 190px;
+  }
+  .textApexDescription9 {
+    font-size: 18px;
+    position: relative;
+    right: 177px;
+  }
+  .imgUniversalJoints {
+    margin-right: 220px;
+    width: 65%;
+  }
+  .titleRecoules {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .recoulesLogo {
+    width: 380px;
+    margin-left: 260px;
+  }
+  .containerRecoules {
+    margin-right: 570px;
+  }
+  .containerRecoulesSpanish {
+    position: relative;
+    left: 66px;
+  }
+  .recoulesText {
+    font-size: 19px;
+  }
+  .imgProductRecoules1 {
+    width: 70%;
+  }
+  .logoDotco {
+    margin-left: 255px !important;
+  }
+  .text-container > p {
+    font-size: 22px;
+  }
+  .text-container {
+    margin-left: 250px;
+    margin-right: 315px;
+  }
+  .logoNorbar {
+    margin-left: 290px;
+    width: 340px !important;
+  }
+  .imgProductNorbar {
+    width: 76% !important;
+  }
+  .logoBNP {
+    margin-left: 277px;
+  }
+  .imgProductBNP {
+    width: 69%;
+  }
+  .logoApexFinal {
+    width: 35% !important;
+  }
+  footer > section > div > span {
+    font-size: 22px;
+  }
+  .fontSizeFooter {
+    font-size: 20px;
+  }
+  .logoKistler {
+    margin-left: 0px !important;
+    position: relative;
+    right: 20px;
+  }
+  .kistlerInnovation {
+    width: 55%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  .logoApex{
+    margin-left: 255px !important;
+  }
 }
 
 @media (max-width: 576px) {
