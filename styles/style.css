@@ -520,18 +520,21 @@ img {
   height: auto;
   max-width: 100%;
 }
-.logoKistler{
+.logoKistler {
   width: 255px;
   height: 95px;
   margin-left: 170px !important ;
 }
-.kistlerInnovation{
+.kistlerInnovation {
   width: 740px;
   padding-top: 90px;
   padding-bottom: 90px;
 }
 /* Responsive */
 @media (min-width: 1920px) {
+  .navbarContainer {
+    padding-left: 540px;
+  }
   .clecoContainerProduct {
     margin-left: 275px;
   }
@@ -599,7 +602,7 @@ img {
     margin-left: 265px;
     margin-right: 230px;
   }
-  .columnDaytonApex{
+  .columnDaytonApex {
     margin-bottom: 60px;
   }
   .imgDaytonApex {
@@ -631,12 +634,12 @@ img {
   }
   .h5ScrewdriverBits {
     position: relative;
-    right: 215px;
+    right: 200px;
     font-size: 25px;
   }
   .textApexDescription {
     position: relative;
-    right: 210px;
+    right: 195px;
     font-size: 20px;
   }
   .h5BitHolders {
@@ -696,7 +699,8 @@ img {
   .textApexDescription8 {
     font-size: 18px;
     position: relative;
-    left: 12px;
+    left: 10px;
+    padding-right: 1000px;
     width: 1700px;
   }
   .titleUniversalJoints {
@@ -776,7 +780,7 @@ img {
     margin-top: 90px;
     margin-bottom: 90px;
   }
-  .logoApex{
+  .logoApex {
     margin-left: 255px !important;
   }
 }
@@ -1136,6 +1140,18 @@ img {
   }
   .imgProductNorbar {
     width: 100% !important;
+  }
+  .logoKistler{
+    margin-left: 0px;
+    position: relative;
+    right: 200px;
+  }
+  .borderLine{
+    width: 365px;
+  }
+  .kistlerInnovation{
+    width: 345px;
+
   }
 }
 .titleRecoules {
