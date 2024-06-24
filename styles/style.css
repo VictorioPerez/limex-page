@@ -902,20 +902,24 @@ img {
     padding-top: 0px;
     padding-left: 24px;
     padding-right: 21px;
-    margin-bottom: 1rem;
+    margin-bottom: 0px;
     padding-right: 60px;
     height: 220px;
     width: 196px;
   }
   .containerResponsive .col-md-3 img,
   .containerResponsive .col-sm-6 img {
-    width: 160px;
+    width: 75px;
     height: auto;
   }
   .blur .download-btn {
-    bottom: 90px;
-    left: 56%;
-  }
+    bottom: 40px;
+    left: 52%;
+    width: 73px;
+    height: 24px;
+    font-size: 6px;
+}
+
   .imgAtornilladorGrande {
     width: 365px;
   }
