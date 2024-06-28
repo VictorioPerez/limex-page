@@ -11,6 +11,10 @@
   font-style: normal;
   font-weight: normal;
 }
+.logoLimex {
+  width: 265px;
+  height: auto;
+}
 p {
   font-family: "Italics", sans-serif;
 }
@@ -104,16 +108,18 @@ h1 {
 .logo {
   width: 250px;
   height: 138px;
-  margin-left: 155px;
+  margin-left: 105px;
 }
 .descriptionProductCleco {
   color: #000 !important;
   padding-left: 110px;
   padding-right: 50px;
+  letter-spacing: -1px;
   position: relative;
   bottom: 60px;
   left: 0px;
   line-height: 25px;
+  font-size: 21px;
 }
 /* Estilos para el texto en inglés */
 .english-text1 {
@@ -130,7 +136,7 @@ h1 {
   width: 600px;
 }
 .imgProductCleco3 {
-  width: 509px;
+  width: 528px;
   height: auto;
   padding-top: 39px;
   margin-left: 210px;
@@ -139,10 +145,10 @@ h1 {
   margin-bottom: 50px;
 }
 .imgProductCleco7 {
-  margin-top: 75px;
+  margin-top: 30px;
   position: relative;
-  right: 116px;
-  width: 670px;
+  right: 87px;
+  width: 645px;
   height: auto;
 }
 
@@ -156,7 +162,7 @@ h1 {
 }
 .imgAtornilladorGrande {
   max-width: 1100px;
-  width: 1100px;
+  width: 1060px;
   height: auto;
 }
 .infoApexProducts {
@@ -165,8 +171,9 @@ h1 {
 .imgProductCleco6 {
   width: 70%;
   position: relative;
-  left: 10px;
+  left: 31px;
   padding-left: 53px;
+  bottom: 6px;
 }
 
 .imgApexProduct1 {
@@ -207,6 +214,9 @@ h1 {
 .containerClecoText,
 .containerTitleApex {
   height: 180px;
+  margin-right: 125px !important;
+  margin-left: 80px !important;
+  margin-bottom: 10px;
 }
 .containerTitleApex:hover .english-text {
   display: none;
@@ -236,11 +246,19 @@ h1 {
 .containerClecoText:hover .spanish-text1 {
   display: block;
 }
+.listaDescripcion{
+  left: 4% !important;
+  bottom: 90px;
+}
+
 .titleNeoTek {
   color: #e35205;
-  width: 243px;
   padding-left: 0px;
   margin-left: 100px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-size: 34px;
+  width: 285px;
 }
 .clecoColumnProduct3 {
   width: 400px !important;
@@ -248,7 +266,8 @@ h1 {
 .productApex5 {
   padding-left: 20px;
   margin-left: 58px;
-  width: 555px;
+  width: 672px;
+  height: auto;
 }
 .apexSocketsWrenches {
   width: 1200px;
@@ -335,11 +354,11 @@ footer {
   padding-top: 20px;
   padding-left: 95px;
   margin-bottom: 1rem;
-  padding-right: 60px;
+  padding-right: 140px;
 }
 .containerResponsive .col-md-3 img,
 .containerResponsive .col-sm-6 img {
-  width: 250px; /* Cambia el ancho de las imágenes en dispositivos de escritorio */
+  width: 240px; /* Cambia el ancho de las imágenes en dispositivos de escritorio */
   height: auto; /* Mantén la proporción original */
 }
 img {
@@ -350,7 +369,7 @@ img {
 }
 
 .imgDaytonApex {
-  width: 75%;
+  width: 83%;
   margin-bottom: 30px;
 }
 .blur img {
@@ -396,8 +415,9 @@ img {
   width: 480px !important;
 }
 .containerListApexText > ul > li {
-  font-size: 1rem !important;
+  font-size: 18px !important;
   width: 360px;
+  line-height: normal;
 }
 .containerListApexText {
   padding-left: 85px;
@@ -411,13 +431,15 @@ img {
   margin-left: 99px;
   position: relative;
   top: 38px;
-  right: 38px;
+  right: 35px;
 }
 .containerClecoDescription {
   margin-left: 71px;
 }
 .neotekDescription {
   width: 450px !important;
+  position: relative;
+  left: 30px;
 }
 .containerProductCleco6 {
   width: 695px;
@@ -426,13 +448,15 @@ img {
   margin-top: 35px;
   margin-left: 0px;
   left: 29px;
-  font-size: 22px;
+  font-size: 25px;
   padding-right: 70px;
 }
 .apexText {
-  left: 30px;
-  font-family: "Arial Narrow", Arial, sans-serif !important;
+  left: 32px;
   padding-right: 50px;
+  line-height: normal;
+  font-size: 18px;
+  font-family: "Arial Narrow", Arial, sans-serif !important;
 }
 .containerRecoules {
   height: 115px;
@@ -444,33 +468,51 @@ img {
 .textTrustedQuality {
   padding-left: 24px;
   margin-bottom: 0px;
+  letter-spacing: -1px;
+  font-size: 28px;
 }
 .textKnowDurability {
   margin-bottom: 0px;
+  letter-spacing: -1px;
+  font-size: 28px;
 }
 .sizetorqueImage {
-  width: 500px;
+  width: 507px;
   height: auto;
-  margin-left: 121px;
+  margin-left: 97px;
 }
 .imgProductCleco5 {
-  width: 552px;
+  width: 549px;
   height: auto;
+  POSITION: RELATIVE;
+  left: 10px;
 }
+.logoApex{
+  margin-left: 100px !important;
+}
+
 .imgProductCleco4 {
-  width: 480px;
+  width: 532px;
   height: auto;
-  margin-left: 115px;
+  margin-left: 91px;
+}
+.titleHerramientasManuales{
+  margin-top: 45px  !important;
+  margin-bottom: 45px !important;
+  font-size: 31px;
+  letter-spacing: -1px;
 }
 .titleDescription1 {
   color: #000 !important;
-  padding-left: 77px;
+  padding-left: 98px;
+  padding-top: 0px;
 }
 .extra-space {
   margin-bottom: 7px; /* Ajusta este valor según sea necesario */
 }
 .liApex {
   font-family: "Arial Narrow", Arial, sans-serif !important;
+  font-weight: 500;
 }
 .imgUniversalJoints {
   margin-right: 230px;
@@ -487,11 +529,11 @@ img {
   height: auto;
 }
 .husillosText {
-  margin: 1.5rem;
-}
-.titleDescription {
-  margin-top: 24px !important;
-  margin-bottom: 48px;
+  position: relative;
+  left: 9rem;
+  font-size: 32px;
+  width: 1000px;
+  margin-bottom: 30px;
 }
 .columnDaytonApex {
   flex-direction: column;
@@ -516,9 +558,8 @@ img {
   height: auto;
 }
 .imgProductCleco8_1 {
-  width: 100%;
+  width: 660px !important;
   height: auto;
-  max-width: 100%;
 }
 .logoKistler {
   width: 255px;
@@ -579,6 +620,7 @@ img {
     left: 305px;
     top: 40px;
     font-size: 35px;
+    letter-spacing: -1px;
   }
   .textNeoTek {
     padding-right: 113px;
@@ -590,6 +632,7 @@ img {
   .titleDescription {
     font-size: 39px;
   }
+
   .logo {
     width: 380px;
     height: 138px;
@@ -599,8 +642,8 @@ img {
     width: 1300px;
   }
   .containerTitleApex {
-    margin-left: 265px;
-    margin-right: 230px;
+    margin-left: 80px;
+    margin-right: 204px;
   }
   .columnDaytonApex {
     margin-bottom: 60px;
@@ -918,7 +961,7 @@ img {
     width: 73px;
     height: 24px;
     font-size: 6px;
-}
+  }
 
   .imgAtornilladorGrande {
     width: 365px;
@@ -1145,17 +1188,16 @@ img {
   .imgProductNorbar {
     width: 100% !important;
   }
-  .logoKistler{
+  .logoKistler {
     margin-left: 0px;
     position: relative;
     right: 200px;
   }
-  .borderLine{
+  .borderLine {
     width: 365px;
   }
-  .kistlerInnovation{
+  .kistlerInnovation {
     width: 345px;
-
   }
 }
 .titleRecoules {
